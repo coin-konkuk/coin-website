@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'Spoqa Han Sans Neo Bold';
+  src: local('Spoqa Han Sans Neo Bold'), 
+       url('./fonts/SpoqaHanSansNeo-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans Neo Light';
+  src: local('Spoqa Han Sans Neo Light'), 
+       url('./fonts/SpoqaHanSansNeo-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans Neo Medium';
+  src: local('Spoqa Han Sans Neo Medium'), 
+       url('./fonts/SpoqaHanSansNeo-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans Neo Regular';
+  src: local('Spoqa Han Sans Neo Regular'), 
+       url('./fonts/SpoqaHanSansNeo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans Neo Thin';
+  src: local('Spoqa Han Sans Neo Thin'), 
+       url('./fonts/SpoqaHanSansNeo-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Wanted Sans Black';
+  src: local('Wanted Sans Black'), 
+       url('./fonts/WantedSans-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Wanted Sans Bold';
+  src: local('Wanted Sans Bold'), 
+       url('./fonts/WantedSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Wanted Sans ExtraBlack';
+  src: local('Wanted Sans ExtraBlack'), 
+       url('./fonts/WantedSans-ExtraBlack.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Wanted Sans ExtraBold';
+  src: local('Wanted Sans ExtraBold'), 
+       url('./fonts/WantedSans-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Wanted Sans Medium';
+  src: local('Wanted Sans Medium'), 
+       url('./fonts/WantedSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Wanted Sans Regular';
+  src: local('Wanted Sans Regular'), 
+       url('./fonts/WantedSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Wanted Sans SemiBold';
+  src: local('Wanted Sans SemiBold'), 
+       url('./fonts/WantedSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Regular';
+  src: local('Roboto Regular'), 
+       url('./fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+body {
+  margin: 0;
+  font-family: 'Spoqa Han Sans Neo Regular', sans-serif;
+  font-size: larger;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+img {
+  image-rendering: -moz-crisp-edges; /* firefox */
+  image-rendering: -o-crisp-edges; /* opera */
+  image-rendering: -webkit-optimize-contrast; /* chrome(비표준) */
+  image-rendering:-webkit-optimize-contrast;
+  transform:translateZ(0);
+  backface-visibility:hidden;
+}

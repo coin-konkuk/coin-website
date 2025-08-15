@@ -1,0 +1,10 @@
+TOPICS:
+  - TITLE: Connected Intelligence
+    PICTURE: /topics/Overview of our layering framework.gif
+    DESCRIPTION: "Networking, Implementation, Analysis and Optimization Problems that arise in the decision making of Networked Systems. \n (via Optimization theory, Probability theory, Queueing theory, Machine learning theory, etc.)"
+  - TITLE: 6G Systems
+    PICTURE: /topics/6g.png
+    DESCRIPTION: Age of information and learning, Multimodal AI over network, Networking-computing co-design, Optimal caching of DNN models, Distributed computing network.
+  - TITLE: Artificial Intelligence
+    PICTURE: /topics/dnn.png
+    DESCRIPTION: Knowledge Distillation, Adversarial attacks and robustness, Cross-domain few-shot learning, Multimodal fusion, Prompt-tuning for VLM, Reinforcement learning. 

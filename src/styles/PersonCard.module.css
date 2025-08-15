@@ -1,0 +1,41 @@
+.card {
+  text-align: center;
+}
+
+.card img {
+  width: 200px; /* 원하는 너비 */
+  height: 240px; /* 원하는 높이 */
+  object-fit: cover; /* 이미지 비율을 유지하며 자름 */
+  object-position: top; /* 이미지의 상단을 기준으로 자름 */
+}
+
+.email {
+  margin: 0;
+  font-size: small;
+  color: #909090;
+}
+
+.nameText {
+  margin: 5px;
+}
+
+.field {
+  margin: 4px 0 0;
+  font-size: small;
+  color: #606060;
+}
+
+.name:link {
+  text-decoration: none;
+  color: black;
+}
+
+.name:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.name:link:hover {
+  text-decoration: underline;
+  color: black;
+}

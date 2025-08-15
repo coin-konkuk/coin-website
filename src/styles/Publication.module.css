@@ -1,0 +1,50 @@
+.publication {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.image {
+  width: 150px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.details h3 {
+  margin: 0 0 10px 0;
+}
+
+.details p {
+  margin: 5px 0;
+}
+
+.links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.name:link {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.name:visited {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.name:link:hover {
+  text-decoration: underline;
+  color: black;
+}

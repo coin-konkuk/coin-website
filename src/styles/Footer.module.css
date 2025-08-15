@@ -1,0 +1,38 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: small;
+  }
+  
+  .footerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contactInfo {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .contactInfo h4 {
+    margin-bottom: 10px;
+  }
+  
+  .contactInfo p {
+    margin: 5px 0;
+  }
+  
+  .contactInfo a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .contactInfo a:hover {
+    text-decoration: underline;
+  }
+  

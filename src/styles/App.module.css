@@ -1,0 +1,5 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 90px 20px 20px 20px; /* 헤더 높이만큼의 패딩 추가 */
+  }

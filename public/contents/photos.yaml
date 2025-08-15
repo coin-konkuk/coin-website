@@ -1,0 +1,70 @@
+PHOTOS:
+  # - YEAR: 2024
+  #   WORKSHOPS:
+  #     - TITLE: 2024 Summer Workshop
+  #       FILES: 
+  #         - FILE: /workshops/2024_summer/
+  #         - FILE: /people/hyangwonlee.jpg
+  #         - FILE: /people/hyangwonlee.jpg
+  #         - FILE: /people/hyangwonlee.jpg
+  - YEAR: 2025
+    WORKSHOPS:
+      - TITLE: 2025 Summer Workshop
+        FILES: 
+          - FILE: /workshops/2025_summer/1.jpg
+            WIDTH: 4032
+            HEIGHT: 3024
+          - FILE: /workshops/2025_summer/2.jpg
+            WIDTH: 3024
+            HEIGHT: 3024
+          - FILE: /workshops/2025_summer/3.jpg
+            WIDTH: 3024
+            HEIGHT: 3024
+      - TITLE: 2025 Winter Graduation
+        FILES: 
+          - FILE: graduations/2025_winter/2025_winter1.jpg
+            WIDTH: 3024
+            HEIGHT: 3024
+          - FILE: graduations/2025_winter/2025_winter2.jpg
+            WIDTH: 3024
+            HEIGHT: 3024
+  - YEAR: 2024
+    WORKSHOPS:
+      - TITLE: 2024 Summer Graduation
+        FILES: 
+          - FILE: /graduations/2024_summer/2024_summer1.jpg
+            WIDTH: 4032
+            HEIGHT: 3024
+          - FILE: /graduations/2024_summer/2024_summer2.jpg
+            WIDTH: 3024
+            HEIGHT: 3024
+  - YEAR: 2023
+    WORKSHOPS:
+      - TITLE: 2023 Summer Workshop
+        FILES: 
+        - FILE: /workshops/2023_summer/1.JPG
+          WIDTH: 4032
+          HEIGHT: 3024
+        - FILE: /workshops/2023_summer/2.jpeg
+          WIDTH: 3024
+          HEIGHT: 3024
+        - FILE: /workshops/2023_summer/3.jpeg
+          WIDTH: 3024
+          HEIGHT: 3024
+        - FILE: /workshops/2023_summer/4.jpeg
+          WIDTH: 3024
+          HEIGHT: 3024
+        - FILE: /workshops/2023_summer/5.jpg
+          WIDTH: 4032
+          HEIGHT: 3024
+        - FILE: /workshops/2023_summer/6.jpg
+          WIDTH: 4032
+          HEIGHT: 3024
+
+  - YEAR: 2022
+    WORKSHOPS:
+      - TITLE: 2022 Winter Workshop
+        FILES: 
+          - FILE: /workshops/2022_winter/2.jpeg
+            WIDTH: 3024
+            HEIGHT: 4032

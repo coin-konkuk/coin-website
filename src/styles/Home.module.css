@@ -1,0 +1,108 @@
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #efefef;
+}
+
+.section h2 {
+  margin-bottom: 0px;
+  padding-bottom: 2px;
+  display: inline-block;
+  border-bottom: 4px solid #001f3f;
+}
+
+
+/* .topicsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+} */
+
+.topicsContainer {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(3, auto);   /* 3행 고정 */
+  grid-auto-columns: minmax(320px, 1fr); /* 각 열 너비 */
+  gap: 20px;
+  margin: 20px 0 0 0
+}
+
+/* .topic {
+  flex: 1 1 calc(33.333% - 20px); /* 3개씩 배치, 간격을 고려한 너비
+  box-sizing: border-box;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+} */
+
+.topic {
+  display: grid;
+  grid-template-columns: minmax(300px, 1fr) 1fr; /* 좌우 1/2 */
+  grid-template-areas:
+    "img title"
+    "img  desc";
+  column-gap: 24px;
+  align-items: start;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+/* .topicImage {
+  max-width: 100%;
+  width: 300px; /* 원하는 너비
+  height: 200px; /* 원하는 높이
+  object-fit: cover; /* 이미지 비율을 유지하며 자름
+  margin-bottom: 10px;
+} */
+
+/* 각 영역 배치 */
+.topicImage {
+  grid-area: img;
+  width: 100%;
+  width: 500px;      /* 필요 시 조정 */
+  height: 240px; 
+  object-fit: contain;
+  margin: 0;
+}
+
+.topicTitle {
+  grid-area: title;
+  margin: 5px;
+  text-align: left;
+  align-self: end;
+}
+
+.topicDesc {
+  grid-area: desc;
+  margin: 5px;
+  line-height: 1.5;
+}
+
+/* 반응형: 좁은 화면에서는 세로(이미지→제목→설명) */
+@media (max-width: 768px) {
+  .topic {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "img"
+      "title"
+      "desc";
+    text-align: center;
+  }
+  .topicImage { max-width: 100%; }
+}
+
+.newsList {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.newsList li {
+  margin-bottom: 10px;
+}
