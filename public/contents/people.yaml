@@ -28,7 +28,7 @@ PEOPLE:
     NAME: Heejin Kim
     POSITION: M.S.
     IMAGE: /people/heejinkim.jpg
-    EMAIL: heejinkim@konkuk.ac.kr
+    EMAIL: juliet13579@konkuk.ac.kr
     FIELD: Optimal ensemble of distributed DNN models
     WEBSITE: 
     ISCURRENT: True
@@ -45,7 +45,7 @@ PEOPLE:
     NAME: Hyunhee Ko
     POSITION: M.S.
     IMAGE: /people/hyunheeko.jpg
-    EMAIL: hyunheeko@konkuk.ac.kr
+    EMAIL: hope010227@konkuk.ac.kr
     FIELD: Knowledge Distillation and Robustness
     WEBSITE: 
     ISCURRENT: True
@@ -54,9 +54,9 @@ PEOPLE:
     NAME: Chanyoung Park
     POSITION: M.S.
     IMAGE: /people/chanyoungpark.jpg
-    EMAIL: example@konkuk.ac.kr
+    EMAIL: atoz89961@konkuk.ac.kr
     FIELD: Vision-language navigation
-    WEBSITE: Vision-language navigation
+    WEBSITE: 
     ISCURRENT: True
     CURRENT_WORKPLACE: 
   - ID: kwanheelee
@@ -64,7 +64,7 @@ PEOPLE:
     POSITION: Undergraduate
     IMAGE: /people/kwanheelee.png
     EMAIL: example@konkuk.ac.kr
-    WEBSITE: 
+    WEBSITE: https://kwanhee-lee.github.io
     ISCURRENT: False
     CURRENT_WORKPLACE: MS Student, POSTECH
   - ID: hwanheekim
@@ -103,7 +103,7 @@ PEOPLE:
     NAME: Sumin Song
     POSITION: Undergraduate
     IMAGE: /people/suminsong.jpg
-    EMAIL: suminsong@konkuk.ac.kr
+    EMAIL: ku2001songsu@konkuk.ac.kr
     FIELD: Multimodal AI services
     WEBSITE:
     ISCURRENT: True
@@ -111,15 +111,15 @@ PEOPLE:
     NAME: Sangmin In
     POSITION: Undergraduate
     IMAGE: /people/unknown.png
-    EMAIL: sangminin@konkuk.ac.kr
+    EMAIL: dlstkdals123@konkuk.ac.kr
     FIELD: Multimodal AI services
-    WEBSITE: 
+    WEBSITE: https://github.com/dlstkdals123/
     ISCURRENT: True
   - ID: jinwoopark
     NAME: Jinwoo Park
     POSITION: Undergraduate
     IMAGE: /people/unknown.png
-    EMAIL: jinwoopark@konkuk.ac.kr
+    EMAIL: parkjinwoo01@konkuk.ac.kr
     FIELD: Multimodal AI services
     WEBSITE: 
     ISCURRENT: True

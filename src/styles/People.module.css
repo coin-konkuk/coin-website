@@ -36,3 +36,11 @@
     color: #808080;
   }
   
+  a {
+    color: inherit;             
+    text-decoration: none;      
+  }
+
+  a:hover {
+    text-decoration: underline; 
+  }

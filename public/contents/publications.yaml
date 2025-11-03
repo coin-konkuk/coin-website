@@ -1,4 +1,13 @@
 PUBLICATIONS:
+  - YEAR: 2026
+    PUBLICATIONS:
+      - TITLE: Dynamic network compression via probabilistic channel pruning
+        AUTHORS:
+          - ID: kwanheelee
+          - ID: hyangwonlee
+        VENUE: Neural Networks
+        IMAGE: /publications/dynamic_network.jpg
+        PDF: https://www.sciencedirect.com/science/article/pii/S0893608025009608#fig0001
   - YEAR: 2025
     PUBLICATIONS:
       - TITLE: Joint Frame Drop and Object Detection Task Offloading for Mobile Devices via RL With Lyapunov Optimization
@@ -16,7 +25,7 @@ PUBLICATIONS:
           - ID: hyangwonlee
         VENUE: WiOpt
         IMAGE: /publications/Layered graph representation of joint model ensemble and routing.png
-        PDF: 
+        PDF: https://ieeexplore.ieee.org/document/11123186
         CODE: 
       - TITLE: Quadratic Upper Bound for Boosting Robustness
         AUTHORS:

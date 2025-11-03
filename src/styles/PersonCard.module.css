@@ -9,6 +9,14 @@
   object-position: top; /* 이미지의 상단을 기준으로 자름 */
 }
 
+.clickableImg { cursor: pointer; }
+
+.website {
+  margin: 0;
+  font-size: small;
+  color: #4e4d4d;
+}
+
 .email {
   margin: 0;
   font-size: small;

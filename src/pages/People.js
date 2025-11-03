@@ -4,6 +4,9 @@ import yaml from 'js-yaml';
 import PersonCard from 'components/PersonCard';
 import styles from 'styles/People.module.css';
 
+const normalizeUrl = (url = '') =>
+  /^https?:\/\//i.test(url) ? url : `https://${url}`;
+
 const People = () => {
   const [people, setPeople] = useState([]);
 
@@ -52,7 +55,15 @@ const People = () => {
             <ul>
                 {people.map(person => (
                     <li key={person.ID}>
-                        {person.NAME} <span className={styles.alumniInformation}>{person.POSITION}</span> {person.CURRENT_WORKPLACE && <span className={styles.alumniInformation}> - {person.CURRENT_WORKPLACE}</span>}
+                        {person.WEBSITE ? (
+                          <a href={normalizeUrl(person.WEBSITE)}
+                            target="_blank"
+                            rel="noopener noreferrer">
+                          {person.NAME} </a>
+                        ) : (person.NAME)}
+                        <span className={styles.alumniInformation}>{person.POSITION}</span>
+                        {person.CURRENT_WORKPLACE && (
+                          <span className={styles.alumniInformation}> {' '} - {person.CURRENT_WORKPLACE} </span>)}
                     </li>
                 ))}
             </ul>
@@ -68,7 +79,14 @@ const People = () => {
             <ul>
                 {people.map(person => (
                     <li key={person.ID}>
-                        {person.NAME} {person.CURRENT_WORKPLACE && <span className={styles.alumniInformation}> - {person.CURRENT_WORKPLACE}</span>}
+                        {person.WEBSITE ? (
+                          <a href={normalizeUrl(person.WEBSITE)}
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            {person.NAME} </a>
+                        ) : (person.NAME)}
+                        {person.CURRENT_WORKPLACE && (
+                          <span className={styles.alumniInformation}> {' '} - {person.CURRENT_WORKPLACE} </span>)}
                     </li>
                 ))}
             </ul>
