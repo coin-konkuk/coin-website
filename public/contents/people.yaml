@@ -123,3 +123,11 @@ PEOPLE:
     FIELD: Multimodal AI services
     WEBSITE: 
     ISCURRENT: True
+  - ID: seonggwonpark
+    NAME: Seonggwon Park
+    POSITION: Undergraduate
+    IMAGE: /people/unknown.png
+    EMAIL: p0730p@konkuk.ac.kr
+    FIELD: Robustness
+    WEBSITE: 
+    ISCURRENT: True

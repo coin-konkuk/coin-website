@@ -9,6 +9,11 @@ PHOTOS:
   #         - FILE: /people/hyangwonlee.jpg
   - YEAR: 2025
     WORKSHOPS:
+      - TITLE: 2025 Winter Workshop
+        FILES:
+          - FILE: /workshops/2025_winter/2025_winter.jpg
+            WIDTH: 4032
+            HEIGHT: 3024
       - TITLE: 2025 Summer Workshop
         FILES: 
           - FILE: /workshops/2025_summer/1.jpg
@@ -49,9 +54,6 @@ PHOTOS:
           WIDTH: 3024
           HEIGHT: 3024
         - FILE: /workshops/2023_summer/3.jpeg
-          WIDTH: 3024
-          HEIGHT: 3024
-        - FILE: /workshops/2023_summer/4.jpeg
           WIDTH: 3024
           HEIGHT: 3024
         - FILE: /workshops/2023_summer/5.jpg
