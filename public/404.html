@@ -3,14 +3,18 @@
   <head>
     <meta charset="utf-8" />
     <script>
-      // GitHub Pages SPA redirect
       var path = window.location.pathname;
-      var repo = "/coin-website";
+      var isGithubIo = /\.github\.io$/i.test(window.location.hostname);
+      var repo = "";
+      if (isGithubIo) {
+        repo = "/" + path.split("/").filter(Boolean)[0]; // /coin-website
+      }
+      var redirect = path.replace(repo, "");
       var newUrl =
         window.location.origin +
         repo +
         "/?redirect=" +
-        encodeURIComponent(path.replace(repo, ""));
+        encodeURIComponent(redirect);
 
       window.location.replace(newUrl);
     </script>

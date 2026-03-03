@@ -29,10 +29,18 @@
       (function () {
         var params = new URLSearchParams(window.location.search);
         var redirect = params.get("redirect");
-        if (redirect) {
-          var base = "%PUBLIC_URL%"; // CRA가 빌드 때 /coin-website 로 치환
-          window.history.replaceState(null, null, base + redirect);
+        if (!redirect) return;
+
+        // GitHub project page면 첫 path segment가 repo임: /coin-website/...
+        // 커스텀 도메인이면 repo prefix 없음.
+        var isGithubIo = /\.github\.io$/i.test(window.location.hostname);
+        var repo = "";
+        if (isGithubIo) {
+          var seg = window.location.pathname.split("/").filter(Boolean)[0]; // coin-website
+          repo = seg ? ("/" + seg) : "";
         }
+
+        window.history.replaceState(null, "", repo + redirect);
       })();
     </script>
   </head>
