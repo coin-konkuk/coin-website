@@ -40,7 +40,7 @@ const Publication = ({ publication }) => {
 
   return (
     <div className={styles.publication}>
-      <img src={publication.IMAGE} alt={publication.TITLE} className={styles.image} />
+      <img src={process.env.PUBLIC_URL + publication.IMAGE} alt={publication.TITLE} className={styles.image} />
       <div className={styles.details}>
         <h4>{publication.TITLE}</h4>
         <p>{renderAuthors}</p>
