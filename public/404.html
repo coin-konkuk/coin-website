@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script>
+      // GitHub Pages SPA redirect
+      var path = window.location.pathname;
+      var repo = "/coin-website";
+      var newUrl =
+        window.location.origin +
+        repo +
+        "/?redirect=" +
+        encodeURIComponent(path.replace(repo, ""));
+
+      window.location.replace(newUrl);
+    </script>
+  </head>
+  <body></body>
+</html>
