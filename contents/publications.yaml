@@ -1,0 +1,755 @@
+PUBLICATIONS:
+  - YEAR: 2026
+    PUBLICATIONS:
+      - TITLE: Dynamic network compression via probabilistic channel pruning
+        AUTHORS:
+          - ID: kwanheelee
+          - ID: hyangwonlee
+        VENUE: Neural Networks
+        IMAGE: /publications/dynamic_network.jpg
+        PDF: https://www.sciencedirect.com/science/article/pii/S0893608025009608#fig0001
+  - YEAR: 2025
+    PUBLICATIONS:
+      - TITLE: Joint Frame Drop and Object Detection Task Offloading for Mobile Devices via RL With Lyapunov Optimization
+        AUTHORS:
+          - ID: vaughnsohn
+          - ID: suhwankim
+          - ID: hyangwonlee
+        VENUE: IEEE Transactions on Mobile Computing
+        IMAGE: /publications/Overview of our layering framework.gif
+        PDF: https://ieeexplore.ieee.org/document/10876776
+        CODE: https://github.com/webb-c/FrameDrop-RL
+      - TITLE: On the Optimal Ensemble of Distributed DNN Models
+        AUTHORS:
+          - ID: heejinkim
+          - ID: hyangwonlee
+        VENUE: WiOpt
+        IMAGE: /publications/Layered graph representation of joint model ensemble and routing.png
+        PDF: https://ieeexplore.ieee.org/document/11123186
+        CODE: 
+      - TITLE: Quadratic Upper Bound for Boosting Robustness
+        AUTHORS:
+          - ID: uijinyou
+          - ID: hyangwonlee
+        VENUE: International Conference on Machine Learning (ICML)
+        IMAGE: /publications/Loss landscape for a specific sample.PNG
+        PDF: https://openreview.net/forum?id=flxvawr9N2
+        CODE: 
+
+  - YEAR: 2024
+    PUBLICATIONS:
+      - TITLE: Distributed Computation of DNN via DRL with Spatio-Temporal State Embedding
+        AUTHORS:
+          - ID: suhwankim
+          - ID: sehunjung
+          - ID: hyangwonlee
+        VENUE: IEEE Internet of Things Journal
+        IMAGE: /publications/Distributed Computation of DNN via DRL With Spatiotemporal State Embedding.png
+        PDF: https://ieeexplore.ieee.org/document/10330592
+        CODE: 
+
+  - YEAR: 2023
+    PUBLICATIONS:
+      - TITLE: Optimization Framework for Splitting DNN Inference Jobs over Computing Networks
+        AUTHORS:
+          - ID: sehunjung
+          - ID: hyangwonlee
+        VENUE: Computer Networks, Vol. 232
+        IMAGE: /publications/Example of routing in layered graph with L=2.png
+        PDF: 
+        CODE: 
+      - TITLE: "minFAST: Minimum Span Frequency Assignment Technique for Integrated Access and Backhaul Network"
+        AUTHORS:
+          - ID: Ki-Hun Lee
+          - ID: hyangwonlee
+          - ID: Howon Lee
+          - ID: Seong Ho Chae
+          - ID: Yongsin Kim
+          - ID: Bang Chul Jung
+        VENUE: IEEE Transactions on Vehicular Technology, Vol. 72, Issue 6
+        IMAGE: /publications/An example of the mmWave IAB network focused on multi-hop backhaul links with directional beamforming.gif
+        PDF: https://ieeexplore.ieee.org/document/10041937
+        CODE: 
+      - TITLE: Deep Reinforcement Learning based Edge Computing for Video Processing
+        AUTHORS:
+          - ID: Seung-Yeop Han
+          - ID: hyangwonlee
+        VENUE: ICT Express, Elsevier
+        IMAGE: /publications/Details of Deep Q Network (DQN).jpg
+        PDF: https://www.sciencedirect.com/science/article/pii/S2405959522000704
+        CODE: 
+      - TITLE: Dynamic Computation and Network Chaining in Integrated SDN/NFV Cloud Architecture
+        AUTHORS:
+          - ID: Yeongjin Kim
+          - ID: Jeongho Kwak
+          - ID: hyangwonlee
+          - ID: Song Chong
+        VENUE: IEEE Transactions on Cloud Computing, Vol. 11, No. 1, pp. 367-382
+        IMAGE: /publications/A SDNNFV-enabled multiple resource infrastructure.gif
+        PDF: https://ieeexplore.ieee.org/document/9477144
+        CODE: 
+      - TITLE: "PRADA: Practical Access Point Deployment Algorithm for Cell-Free Industrial IoT Networks"
+        AUTHORS:
+          - ID: Ki-Hun Lee
+          - ID: hyangwonlee
+          - ID: Howon Lee
+          - ID: Bang Chul Jung
+        VENUE: IEEE CCNC, Las Vegas, NV, USA, January
+        IMAGE: /publications/An example of the indoor factory system model for deploying aps with randomly distributed blockages.gif
+        PDF: https://ieeexplore.ieee.org/document/10060457
+        CODE: 
+
+  - YEAR: 2020
+    PUBLICATIONS:
+      - TITLE: A Real-Time Framework for Matching Prosumers with Minimum Risk in the Cluster of Microgrids
+        AUTHORS:
+          - ID: youngseoryu
+          - ID: hyangwonlee
+        VENUE: IEEE Transactions on Smart Grid, Vol. 11, No. 4, pp. 2832-2844
+        IMAGE: /publications/Real-Time_Framework_for_Matching_Prosumers_with_Minimum_Risk_in_the_Cluster_of_Microgrids.gif
+        PDF: https://ieeexplore.ieee.org/document/8964466
+        CODE: 
+
+  - YEAR: 2019
+    PUBLICATIONS:
+      - TITLE: Super-MAC Design for Tightly-coupled Multi-RAT Networks
+        AUTHORS:
+          - ID: Jihwan Kim
+          - ID: hyangwonlee
+          - ID: Song Chong
+        VENUE: IEEE Transactions on Communications, Vol. 67, No. 10
+        IMAGE: /publications/Structure of super-MAC.gif
+        PDF: https://ieeexplore.ieee.org/document/8769896
+        CODE: 
+      - TITLE: Robust Design of Spectrum-sharing Networks
+        AUTHORS:
+          - ID: Qingkai Liang
+          - ID: hyangwonlee
+          - ID: Eytan Modiano
+        VENUE: IEEE Transactions on Mobile Computing, Vol. 18, No. 8
+        IMAGE: /publications/Two different assignments of white channels.gif
+        PDF: https://ieeexplore.ieee.org/document/7492940
+        CODE: 
+      - TITLE: On the Robustness of Distributed Computing Network
+        AUTHORS:
+          - ID: Jianan Zhang
+          - ID: hyangwonlee
+          - ID: Eytan Modiano
+        VENUE: DRCN, Coimbra, Portugal, March
+        IMAGE: /publications/An example of a distributed computing network.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/8713747
+        CODE: 
+
+  - YEAR: 2018
+    PUBLICATIONS:
+      - TITLE: Optimal Power Allocation and Allowable Interference Shaping in Cognitive Radio Networks
+        AUTHORS:
+          - ID: hyangwonlee
+          - ID: Woohyuk Chang
+          - ID: Bang Chul Jung
+        VENUE: Computers and Electrical Engineering, Vol. 71, pp. 265-272
+        IMAGE: /publications/The system model of a multicarrier cognitive radio network.jpg
+        PDF: https://www.sciencedirect.com/science/article/pii/S004579061732918X
+        CODE: 
+      - TITLE: "Finding Minimum Node Separators: A Markov Chain Monte Carlo Method"
+        AUTHORS:
+          - ID: Joohyun Lee
+          - ID: Jaewook Kwak
+          - ID: hyangwonlee
+          - ID: Ness Shroff
+        VENUE: Reliability Engineering and System Safety, Vol. 178, pp. 225-235
+        IMAGE: /publications/An example of vertex removal and addition to W and updates of heads and clusters.jpg
+        PDF: https://www.sciencedirect.com/science/article/pii/S0951832017307263
+        CODE: 
+      - TITLE: Traffic-Aware Energy-Saving Base Station Sleeping and Clustering in Cooperative Networks
+        AUTHORS:
+          - ID: Jihwan Kim
+          - ID: hyangwonlee
+          - ID: Song Chong
+        VENUE: IEEE Transactions on Wireless Communications, Vol. 17, No. 2, pp. 1173–1186
+        IMAGE: /publications/Spatial and temporal traffic fluctuation and traffic adapting BS sleep mode and association controls.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/8122299
+        CODE: 
+      - TITLE: Data-driven Localization and Estimation of Disturbance in the Interconnected Power System
+        AUTHORS:
+          - ID: hyangwonlee
+          - ID: Jianan Zhang
+          - ID: Eytan Modiano
+        VENUE: SmartGridComm, Aalborg, Denmark, October
+        IMAGE: /publications/Frequency deviation measurements with and without noise.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/8587509
+        CODE: 
+      - TITLE: "Control of Multi-Resource Infrastructures: Application to NFV and Computation Offloading"
+        AUTHORS:
+          - ID: Y. Kim
+          - ID: hyangwonlee
+          - ID: Song Chong
+        VENUE: WiOpt, Shanghai, China, May
+        IMAGE: /publications/Topologies of two simple scenarios.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/8362819
+        CODE: 
+
+  - YEAR: 2017
+    PUBLICATIONS:
+      - TITLE: Learning to evaluate and recommend query in restaurant search systems
+        AUTHORS:
+          - ID: Xian Chen
+          - ID: Hyoseop Shin
+          - ID: hyangwonlee
+        VENUE: Information Systems and E-Business Management, Vol. 15, No. 1, pp. 51–68
+        IMAGE: /publications/Learning_to_evaluate_and_recommend_query_in_restaurant_search_systems.png
+        PDF: https://link.springer.com/article/10.1007/s10257-016-0309-8
+        CODE: 
+      - TITLE: Dynamic Network Slicing and Resource Allocation for Heterogeneous Wireless Services
+        AUTHORS:
+          - ID: Jeongho Kwak
+          - ID: Joonyoung Moon
+          - ID: hyangwonlee
+          - ID: Long Le
+        VENUE: PIMRC, 2017
+        IMAGE: /publications/Slicing and resource allocation framework.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/8292663
+        CODE: 
+      - TITLE: "Finding Minimum Node Separators: A Markov Chain Monte Carlo Method"
+        AUTHORS:
+          - ID: Joohyun Lee
+          - ID: Jaewook Kwak
+          - ID: hyangwonlee
+          - ID: Ness Shroff
+        VENUE: DRCN, 2017
+        IMAGE: /publications/Finding Minimum Node Separators A Markov Chain Monte Carlo Method.jpg
+        PDF: https://www.sciencedirect.com/science/article/pii/S0951832017307263
+        CODE: 
+
+  - YEAR: 2016
+    PUBLICATIONS:
+      - TITLE: Robust Power Allocation in Cognitive Radio Networks with Uncertain Knowledge of Interference
+        AUTHORS:
+          - ID: hyangwonlee
+          - ID: Jeongho Kwak
+          - ID: Long Le
+        VENUE: IEEE Wireless Communications Letters, Vol. 5, No. 5, pp. 468–471
+        IMAGE: /publications/Robust_Power_Allocation_in_Cognitive_Radio_Networks_with_Uncertain_Knowledge_of_Interference.png
+        PDF: https://ieeexplore.ieee.org/abstract/document/6883552
+        CODE: 
+      - TITLE: Delay-Optimal Data Forwarding in Vehicular Sensor Networks
+        AUTHORS:
+          - ID: Okyoung Choi
+          - ID: Seokhyun Kim
+          - ID: Jaeseong Jeong
+          - ID: hyangwonlee
+          - ID: Song Chong
+        VENUE: IEEE Transactions on Vehicular Technology, Vol. 65, No. 8, pp. 6389–6402
+        IMAGE: /publications/Important factors on the delay performance in VSNs.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/7268933
+        CODE: 
+      - TITLE: Robust Design of Cognitive Radio Networks
+        AUTHORS:
+          - ID: Qingkai Liang
+          - ID: hyangwonlee
+          - ID: Eytan Modiano
+        VENUE: WiOpt, 2016
+        IMAGE: /publications/Robust_Design_of_Cognitive_Radio_Networks.png
+        PDF: https://ieeexplore.ieee.org/document/6983335
+        CODE: 
+
+  - YEAR: 2015
+    PUBLICATIONS:
+      - TITLE: A Robust Optimization Approach to Backup Network Design with Random Failures
+        AUTHORS:
+          - ID: Matthew Johnston
+          - ID: hyangwonlee
+          - ID: Eytan Modiano
+        VENUE: IEEE/ACM Transactions on Networking, Vol. 23, No. 4, pp. 1216–1228
+        IMAGE: /publications/A_Robust_Optimization_Approach_to_Backup_Network_Design_with_Random_Failures.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/6813701
+        CODE: 
+      - TITLE: CSMA-based Robust AP Throughput Guarantee under User Distribution Uncertainty
+        AUTHORS:
+          - ID: Jihwan Kim
+          - ID: hyangwonlee
+          - ID: Song Chong
+        VENUE: IEEE/ACM Transactions on Networking, Vol. 23, No. 3, pp. 782–795
+        IMAGE: /publications/Overview of the AP throughput guarantee CSMA algorithm.gif
+        PDF: CSMA-based Robust AP Throughput Guarantee under User Distribution Uncertainty
+        CODE: 
+      - TITLE: "TAES: Traffic-Aware Energy-Saving Base Station Sleeping and Clustering in Cooperative Networks"
+        AUTHORS:
+          - ID: Jihwan Kim
+          - ID: hyangwonlee
+          - ID: Song Chong
+        VENUE: WiOpt, 2015
+        IMAGE: /publications/TAES_Traffic-Aware_Energy-Saving_Base_Station_Sleeping_and_Clustering_in_Cooperative_Networks.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/7151081
+        CODE: 
+
+  - YEAR: 2014
+    PUBLICATIONS:
+      - TITLE: "Survivable Path Sets: A New Approach to Survivability in Multilayer Networks"
+        AUTHORS:
+          - ID: Marzieh Parandehgheibi
+          - ID: hyangwonlee
+          - ID: Eytan Modiano
+        VENUE: IEEE/OSA Journal of Lightwave Technology, vol. 32, no. 24, pp. 4741–4752
+        IMAGE: /publications/Survivable_Path_Sets_A_New_Approach_to_Survivability_in_Multilayer_Networks.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/6936312
+        CODE: 
+      - TITLE: A Distributed Rate Allocation Scheme in the Two-Sided Network
+        AUTHORS:
+          - ID: Jonghoon Yun
+          - ID: hyangwonlee
+          - ID: Young-Myoung Kim
+        VENUE: IEEE GLOBECOM, 2014
+        IMAGE: /publications/A_Distributed_Rate_Allocation_Scheme_in_the_Two-Sided_Network.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/7036970
+        CODE: 
+      - TITLE: Robust Power Allocation in Cognitive Radio Networks with Uncertain Knowledge of Interference
+        AUTHORS:
+          - ID: Inyoung Kim
+          - ID: hyangwonlee
+        VENUE: IEEE ICC’14, Sydney, Australia, June
+        IMAGE: /publications/Robust_Power_Allocation_in_Cognitive_Radio_Networks_with_Uncertain_Knowledge_of_Interference.png
+        PDF: https://ieeexplore.ieee.org/abstract/document/6883552
+        CODE: 
+
+  - YEAR: 2013
+    PUBLICATIONS:
+      - TITLE: Robust Network Design for Stochastic Traffic Demands
+        AUTHORS:
+          - ID: Matthew Johnston
+          - ID: hyangwonlee
+          - ID: Eytan Modiano
+        VENUE: IEEE/OSA Journal of Lightwave Technology, Vol. 31, No. 18, pp. 3104-3116
+        IMAGE: /publications/Robust_Network_Design_for_Stochastic_Traffic_Demands.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/6576905
+        CODE: 
+      - TITLE: Reliable Network Design for Ethernet Ring Mesh Networks
+        AUTHORS:
+          - ID: Kyusang Lee
+          - ID: Dujeong Lee
+          - ID: hyangwonlee
+          - ID: No-Gil Myung
+          - ID: Younghyun Kim
+          - ID: June-Koo Kevin Rhee
+        VENUE: IEEE/OSA Journal of Lightwave Technology, Vol. 31, No. 1, pp. 1-9
+        IMAGE: /publications/Reliable_Network_Design_for_Ethernet_Ring_Mesh_Networks.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/6341025
+        CODE: 
+      - TITLE: Delay-Optimal Data Forwarding in Vehicular Sensor Networks
+        AUTHORS:
+          - ID: Okyoung Choi
+          - ID: Seokhyun Kim
+          - ID: Jaeseong Jeong
+          - ID: hyangwonlee
+          - ID: Song Chong
+        VENUE: WiOpt’13
+        IMAGE: /publications/Delay-Optimal_Data_Forwarding_in_Vehicular_Sensor_Networks.png
+        PDF: https://ieeexplore.ieee.org/abstract/document/7268933
+        CODE: 
+
+  - YEAR: 2012
+    PUBLICATIONS:
+      - TITLE: Improving TCP Performance over Optimal CSMA in Wireless Multi-Hop Networks
+        AUTHORS:
+          - ID: Jinsung Lee
+          - ID: hyangwonlee
+          - ID: Yung Yi
+          - ID: Song Chong
+        VENUE: IEEE Communications Letters, Vol. 16, No. 9, pp. 1388-1391
+        IMAGE: /publications/Improving_TCP_Performance_over_Optimal_CSMA_in_Wireless_Multi-Hop_Networks.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/6244789
+        CODE: 
+      - TITLE: Distributed Throughput Maximization in Wireless Networks via Random Power Allocation
+        AUTHORS:
+          - ID: hyangwonlee
+          - ID: Eytan Modiano
+          - ID: Long Bao Le
+        VENUE: IEEE Transactions on Mobile Computing, Vol. 11, Issue 4, pp. 577-590
+        IMAGE: /publications/Distributed_Throughput_Maximization_in_Wireless_Networks_via_Random_Power_Allocation.png
+        PDF: https://ieeexplore.ieee.org/abstract/document/5740901
+        CODE: 
+      - TITLE: Survivable Paths in Multilayer Networks
+        AUTHORS:
+          - ID: Marzieh Parandehgheibi
+          - ID: hyangwonlee
+          - ID: Eytan Modiano
+        VENUE: CISS, Princeton, NJ, March
+        IMAGE: /publications/Survivable_Paths_in_Multilayer_Networks.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/6310813
+        CODE: 
+
+  - YEAR: 2011
+    PUBLICATIONS:
+      - TITLE: Reliability in Layered Networks with Random Link Failures
+        AUTHORS:
+          - ID: Kayi Lee
+          - ID: hyangwonlee
+          - ID: Eytan Modiano
+        VENUE: IEEE/ACM Transactions on Networking, Vol. 19, Issue 6, pp. 1835-1848
+        IMAGE: /publications/Reliability_in_Layered_Networks_with_Random_Link_Failures.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/5759108
+        CODE: 
+      - TITLE: Cross-Layer Survivability in WDM-Based Networks
+        AUTHORS:
+          - ID: Kayi Lee
+          - ID: Eytan Modiano
+          - ID: hyangwonlee
+        VENUE: IEEE/ACM Transactions on Networking, Vol. 19, No. 4, pp. 1000-1013
+        IMAGE: /publications/Cross-Layer_Survivability_in_WDM-Based_Networks.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/5643973
+        CODE: 
+      - TITLE: Maximizing Reliability in WDM Networks through Lightpath Routing
+        AUTHORS:
+          - ID: hyangwonlee
+          - ID: Kayi Lee
+          - ID: Eytan Modiano
+        VENUE: IEEE GLOBECOM, Houston, TX, December
+        IMAGE: /publications/Maximizing_Reliability_in_WDM_Networks_through_Lightpath_Routing.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/6557100
+        CODE: 
+      - TITLE: Robust Network Design for Stochastic Traffic Demands
+        AUTHORS:
+          - ID: Matthew Johnston
+          - ID: hyangwonlee
+          - ID: Eytan Modiano
+        VENUE: IEEE GLOBECOM, Houston, TX, December
+        IMAGE: /publications/Robust_Network_Design_for_Stochastic_Traffic_Demands.png
+        PDF: https://ieeexplore.ieee.org/abstract/document/6576905
+        CODE: 
+      - TITLE: A Robust Optimization Approach to Backup Network Design with Random Failures
+        AUTHORS:
+          - ID: Matthew Johnston
+          - ID: hyangwonlee
+          - ID: Eytan Modiano
+        VENUE: IEEE INFOCOM, Shanghai, China, April
+        IMAGE: /publications/A_Robust_Optimization_Approach_to_Backup_Network_Design_with_Random_Failures.png
+        PDF: https://ieeexplore.ieee.org/abstract/document/6813701
+        CODE: 
+
+  - YEAR: 2010
+    PUBLICATIONS:
+      - TITLE: Diverse Routing in Networks with Probabilistic Failures
+        AUTHORS:
+          - ID: hyangwonlee
+          - ID: Eytan Modiano
+          - ID: Kayi Lee
+        VENUE: IEEE/ACM Transactions on Networking, Vol. 18, No. 6, pp. 1895–1907
+        IMAGE: /publications/Diverse_Routing_in_Networks_with_Probabilistic_Failures.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/5473148
+        CODE: 
+      - TITLE: Distributed max–min flow control for multi-rate overlay multicast
+        AUTHORS:
+          - ID: hyangwonlee
+          - ID: Jeong-woo Cho
+          - ID: Song Chong
+        VENUE: Computer Networks, Vol. 54, No. 11, pp. 1727-1738
+        IMAGE: /publications/Distributed_max-min_flow_control_for_multi-rate_overlay_multicast.jpg
+        PDF: https://www.sciencedirect.com/science/article/pii/S1389128610000484
+        CODE: 
+      - TITLE: Feedback Reduction for Multiuser OFDM Systems
+        AUTHORS:
+          - ID: Jeongho Jeon
+          - ID: Kyuho Son
+          - ID: hyangwonlee
+          - ID: Song Chong
+        VENUE: IEEE Transactions on Vehicular Technology, Vol. 59, No. 1, pp. 160-169
+        IMAGE: /publications/Feedback_Reduction_for_Multiuser_OFDM_Systems.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/5200397
+        CODE: 
+      - TITLE: Reliability in Layered Networks with Random Link Failures
+        AUTHORS:
+          - ID: Kayi Lee
+          - ID: hyangwonlee
+          - ID: Eytan Modiano
+        VENUE: IEEE INFOCOM, San Diego, CA, March
+        IMAGE: /publications/Reliability_in_Layered_Networks_with_Random_Link_Failures.png
+        PDF: https://ieeexplore.ieee.org/abstract/document/5759108
+        CODE: 
+
+  - YEAR: 2009
+    PUBLICATIONS:
+      - TITLE: A Joint Design of Congestion Control and Burst Contention Resolution for Optical Burst Switching Networks
+        AUTHORS:
+          - ID: Won-Seok Park
+          - ID: Minsu Shin
+          - ID: hyangwonlee
+          - ID: Song Chong
+        VENUE: IEEE/OSA Journal on Lightwave Technology, Vol. 27, No. 17, pp. 3820-3830
+        IMAGE: /publications/A_Joint_Design_of_Congestion_Control_and_Burst_Contention_Resolution_for_Optical_Burst_Switching_Networks.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/5109683
+        CODE: 
+      - TITLE: Distributed Throughput Maximization in Wireless Networks via Random Power Allocation
+        AUTHORS:
+          - ID: hyangwonlee
+          - ID: Eytan Modiano
+          - ID: Long Bao Le
+        VENUE: WiOpt, Seoul, Korea, June
+        IMAGE: /publications/Distributed_Throughput_Maximization_in_Wireless_Networks_via_Random_Power_Allocation.png
+        PDF: https://ieeexplore.ieee.org/abstract/document/5740901
+        CODE: 
+      - TITLE: Diverse Routing in Networks with Probabilistic Failures
+        AUTHORS:
+          - ID: hyangwonlee
+          - ID: Eytan Modiano
+        VENUE: IEEE INFOCOM, Rio de Janeiro, Brazil, April
+        IMAGE: /publications/Diverse_Routing_in_Networks_with_Probabilistic_Failures.png
+        PDF: https://ieeexplore.ieee.org/abstract/document/5473148
+        CODE: 
+
+  - YEAR: 2008
+    PUBLICATIONS:
+      - TITLE: "Downlink Resource Allocation in Multi-Carrier Systems: Frequency-Selective vs. Equal Power Allocation"
+        AUTHORS:
+          - ID: hyangwonlee
+          - ID: Song Chong
+        VENUE: IEEE Transactions on Wireless Communications, Vol. 7, No. 10, pp. 3738-3747
+        IMAGE: /publications/Downlink_Resource_Allocation_in_Multi-Carrier_Systems.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/4657320
+        CODE: 
+
+  - YEAR: 2007
+    PUBLICATIONS:
+      - TITLE: Combined Packet Scheduling and Call Admission Control with Minimum Throughput Guarantee in Wireless Networks
+        AUTHORS:
+          - ID: hyangwonlee
+          - ID: Song Chong
+        VENUE: IEEE Transactions on Wireless Communications, Vol. 6, No. 8, pp. 3080-3089
+        IMAGE: /publications/Combined_Packet_Scheduling_and_Call_Admission_Control.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/4290049
+        CODE: 
+      - TITLE: Opportunistic Relaying in Cellular Network for Capacity and Fairness Improvement
+        AUTHORS:
+          - ID: Seungho Song
+          - ID: Kyuho Son
+          - ID: hyangwonlee
+          - ID: Song Chong
+        VENUE: IEEE GLOBECOM, Washington D.C., November
+        IMAGE: /publications/Opportunistic_Relaying_in_Cellular_Network_for_Capacity_and_Fairness_Improvement.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/4411748
+        CODE: 
+      - TITLE: Joint Congestion Control and Burst Contention Resolution in Optical Burst Switching Networks
+        AUTHORS:
+          - ID: Won-Seok Park
+          - ID: Minsu Shin
+          - ID: hyangwonlee
+          - ID: Song Chong
+        VENUE: IEEE GLOBECOM, Washington D.C., November
+        IMAGE: /publications/Joint_Congestion_Control_and_Burst_Contention_Resolution_in_Optical_Burst_Switching_Networks.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/4411332
+        CODE: 
+      - TITLE: Efficiency Based Feedback Reduction
+        AUTHORS:
+          - ID: Jeongho Jeon
+          - ID: Kyuho Son
+          - ID: hyangwonlee
+          - ID: Song Chong
+        VENUE: IEEE ICC, Glasgow, Scotland, UK, June
+        IMAGE: /publications/Efficiency_Based_Feedback_Reduction.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/4289647
+        CODE: 
+      - TITLE: Scheduling and Source Control with Average Queue-Length Control in Cellular Networks
+        AUTHORS:
+          - ID: hyangwonlee
+          - ID: Cheoljung Kim
+          - ID: Song Chong
+        VENUE: IEEE ICC, Glasgow, Scotland, UK, June
+        IMAGE: /publications/Scheduling_and_Source_Control_with_Average_Queue-Length_Control_in_Cellular_Networks.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/4288698
+        CODE: 
+      - TITLE: "Downlink Resource Allocation in Multi-Carrier Systems: Frequency-Selective vs. Equal Power Allocation"
+        AUTHORS:
+          - ID: hyangwonlee
+          - ID: Song Chong
+        VENUE: IEEE WoWMoM, Helsinki, Finland, June
+        IMAGE: /publications/Downlink_Resource_Allocation_in_Multi-Carrier_Systems.png
+        PDF: https://d1wqtxts1xzle7.cloudfront.net/97716843/_5BIC33_5D-libre.pdf?1674536915=&response-content-disposition=inline%3B+filename%3DDownlink_resource_allocation_in_multi_ca.pdf&Expires=1754557351&Signature=VtnZuNLTN6R1RTzQbM6JEYlgXCte6ZqNmq4npdD3kGt0teWB4R6zqLZqjJNhCjcpxtPyUGyv22LiqrsTNcXvZrjpsfNf2RNxYNDQrGSduMpoe9r~UQFbtKTf~okISMyKhhEkfjKvZ7YtDFXnYF~n5f07BWPSgpDvpSKCblDQPJzRjllEBguOGax89ogHwgfU551~0x2VOkCXpqB0rN0CI2LutwkOJxyxf9Al3Kf1SllLpwQUvMA87XMfgGxvQ0u6bsyIzTllWNotDYPClYqfxf7W6A6O4m6Ga7c7Q3ndR52BOda04aN1BrQlT~zN1tB3QAUpoB7kADKDdq2ZLXs05g__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+        CODE: 
+
+  - YEAR: 2006
+    PUBLICATIONS:
+      - TITLE: A Distributed Utility Max-Min Flow Control Algorithm
+        AUTHORS:
+          - ID: hyangwonlee
+          - ID: Song Chong
+        VENUE: Computer Networks, Vol. 50, Issue 11, pp. 1816-1830
+        IMAGE: /publications/A_Distributed_Utility_Max-Min_Flow_Control_Algorithm.jpg
+        PDF: https://www.sciencedirect.com/science/article/pii/S138912860500263X
+        CODE: 
+      - TITLE: Combined QoS Scheduling and Call Admission Control Algorithm in Cellular Networks
+        AUTHORS:
+          - ID: hyangwonlee
+          - ID: Song Chong
+        VENUE: WiOpt'06, Boston, MA, April
+        IMAGE: /publications/Combined_QoS_Scheduling_and_Call_Admission_Control_Algorithm_in_Cellular_Networks.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/1666524
+        CODE: 
+
+  - YEAR: 2005
+    PUBLICATIONS:
+      - TITLE: Flow Control with Processing Constraint
+        AUTHORS:
+          - ID: Song Chong
+          - ID: Minsu Shin
+          - ID: Jeonghoon Mo
+          - ID: hyangwonlee
+        VENUE: IEEE Communications Letters, Vol. 9, No. 10, pp. 957 - 959
+        IMAGE: /publications/Flow_Control_with_Processing_Constraint.gif
+        PDF: https://ieeexplore.ieee.org/document/1515682?signout=success
+        CODE: 
+      - TITLE: A Distributed Utility Max-Min Flow Control Algorithm
+        AUTHORS:
+          - ID: hyangwonlee
+          - ID: Song Chong
+        VENUE: IEEE ICC, Seoul, Korea, May
+        IMAGE: /publications/A_Distributed_Utility_Max-Min_Flow_Control_Algorithm.gif
+        PDF: https://ieeexplore.ieee.org/document/1494511
+        CODE: 
+        
+  - YEAR: 2004
+    PUBLICATIONS:
+      - TITLE: A Distributed Max-Min Flow Control Algorithm for Multi-rate Multicast Flows
+        AUTHORS:
+          - ID: hyangwonlee
+          - ID: Jeong-woo Cho
+          - ID: Song Chong
+        VENUE: IEEE GLOBECOM, Dallas, TX, November
+        IMAGE: /publications/A_Distributed_Max-Min_Flow_Control_Algorithm_for_Multi-rate_Multicast_Flows.gif
+        PDF: https://ieeexplore.ieee.org/abstract/document/1378135
+        CODE: 
+
+
+
+# PUBLICATIONS:
+#   - YEAR: 2024
+#     PUBLICATIONS:
+#       - TITLE: AI is good
+#         AUTHORS:
+#           - ID: suhwankim
+#           - ID: hyangwonlee
+#         VENUE: ICLR 2024
+#         IMAGE: publications/ai_is_good.png
+#         PDF: https://ieeexplore.ieee.org/document/10330592
+#         CODE: 
+#       - TITLE: The Future of Quantum Computing
+#         AUTHORS:
+#           - ID: suhwankim
+#           - ID: hyangwonlee
+#         VENUE: QCC 2024
+#         IMAGE: publications/future_of_quantum_computing.png
+#         PDF: https://ieeexplore.ieee.org/document/10330592
+#         CODE: 
+#       - TITLE: Advances in Neural Networks
+#         AUTHORS:
+#           - ID: suhwankim
+#           - ID: hyangwonlee
+#         VENUE: NeurIPS 2024
+#         IMAGE: publications/advances_in_neural_networks.png
+#         PDF: https://ieeexplore.ieee.org/document/10330592
+#         CODE: 
+
+#   - YEAR: 2023
+#     PUBLICATIONS:
+#       - TITLE: AI is good
+#         AUTHORS:
+#           - ID: suhwankim
+#           - ID: hyangwonlee
+#         VENUE: ICLR 2023
+#         IMAGE: publications/ai_is_good.png
+#         PDF: https://ieeexplore.ieee.org/document/10330592
+#         CODE: 
+#       - TITLE: The Future of Quantum Computing
+#         AUTHORS:
+#           - ID: suhwankim
+#           - ID: hyangwonlee
+#         IMAGE: publications/future_of_quantum_computing.png
+#         PDF: https://ieeexplore.ieee.org/document/10330592
+#         CODE: 
+#       - TITLE: Advances in Neural Networks
+#         AUTHORS:
+#           - ID: suhwankim
+#           - ID: hyangwonlee
+#         VENUE: NeurIPS 2023
+#         IMAGE: publications/advances_in_neural_networks.png
+#         PDF: https://ieeexplore.ieee.org/document/10330592
+#         CODE: 
+
+#   - YEAR: 2022
+#     PUBLICATIONS:
+#       - TITLE: AI is good
+#         AUTHORS:
+#           - ID: suhwankim
+#           - ID: hyangwonlee
+#         VENUE: ICLR 2023
+#         IMAGE: publications/ai_is_good.png
+#         PDF: https://ieeexplore.ieee.org/document/10330592
+#         CODE: 
+#       - TITLE: The Future of Quantum Computing
+#         AUTHORS:
+#           - ID: suhwankim
+#           - ID: hyangwonlee
+#         VENUE: QCC 2023
+#         IMAGE: publications/future_of_quantum_computing.png
+#         PDF: https://ieeexplore.ieee.org/document/10330592
+#         CODE: 
+#       - TITLE: Advances in Neural Networks
+#         AUTHORS:
+#           - ID: suhwankim
+#           - ID: hyangwonlee
+#         VENUE: NeurIPS 2023
+#         IMAGE: publications/advances_in_neural_networks.png
+#         PDF: https://ieeexplore.ieee.org/document/10330592
+#         CODE: 
+
+#   - YEAR: 2021
+#     PUBLICATIONS:
+#       - TITLE: AI is good
+#         AUTHORS:
+#           - ID: suhwankim
+#           - ID: hyangwonlee
+#         VENUE: ICLR 2023
+#         IMAGE: publications/ai_is_good.png
+#         PDF: https://ieeexplore.ieee.org/document/10330592
+#         CODE: 
+#       - TITLE: The Future of Quantum Computing
+#         AUTHORS:
+#           - ID: suhwankim
+#           - ID: hyangwonlee
+#         VENUE: QCC 2023
+#         IMAGE: publications/future_of_quantum_computing.png
+#         PDF: https://ieeexplore.ieee.org/document/10330592
+#         CODE: 
+#       - TITLE: Advances in Neural Networks
+#         AUTHORS:
+#           - ID: suhwankim
+#           - ID: hyangwonlee
+#         VENUE: NeurIPS 2023
+#         IMAGE: publications/advances_in_neural_networks.png
+#         PDF: https://ieeexplore.ieee.org/document/10330592
+#         CODE: 
+
+#   - YEAR: 2020
+#     PUBLICATIONS:
+#       - TITLE: AI is good
+#         AUTHORS:
+#           - ID: suhwankim
+#           - ID: hyangwonlee
+#         VENUE: ICLR 2023
+#         IMAGE: publications/ai_is_good.png
+#         PDF: https://ieeexplore.ieee.org/document/10330592
+#         CODE: 
+#       - TITLE: The Future of Quantum Computing
+#         AUTHORS:
+#           - ID: suhwankim
+#           - ID: hyangwonlee
+#         VENUE: QCC 2023
+#         IMAGE: publications/future_of_quantum_computing.png
+#         PDF: https://ieeexplore.ieee.org/document/10330592
+#         CODE: 
+#       - TITLE: Advances in Neural Networks
+#         AUTHORS:
+#           - ID: suhwankim
+#           - ID: hyangwonlee
+#         VENUE: NeurIPS 2023
+#         IMAGE: publications/advances_in_neural_networks.png
+#         PDF: https://ieeexplore.ieee.org/document/10330592
+#         CODE: 

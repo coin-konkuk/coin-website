@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script>
+      (function () {
+        // 현재 들어온 전체 경로(프로젝트 페이지면 /coin-website/people 형태)를 저장
+        sessionStorage.setItem("spa:redirect", window.location.pathname + window.location.search + window.location.hash);
+
+        // GitHub project page일 때만 repo prefix(/coin-website)로 루트로 보내기
+        var isGithubIo = /\.github\.io$/i.test(window.location.hostname);
+        var repo = "";
+
+        if (isGithubIo) {
+          var seg = window.location.pathname.split("/").filter(Boolean)[0]; // coin-website
+          repo = seg ? ("/" + seg) : "";
+        }
+
+        // 항상 index.html로 가게 만들기
+        window.location.replace(window.location.origin + repo + "/");
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>

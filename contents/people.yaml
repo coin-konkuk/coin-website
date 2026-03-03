@@ -1,0 +1,133 @@
+PEOPLE:
+  - ID: hyangwonlee
+    NAME: Hyang-Won Lee
+    POSITION: Professor
+    IMAGE: /people/hyangwonlee.jpg
+    EMAIL: leehw@konkuk.ac.kr
+    WEBSITE: https://sites.google.com/view/leehwko/
+    FIELD: 
+    ISCURRENT: True
+    CURRENT_WORKPLACE:
+  - ID: suhwankim
+    NAME: Suhwan Kim
+    POSITION: Undergraduate
+    IMAGE: /people/suhwankim.jpg
+    EMAIL: drrobot333@konkuk.ac.kr
+    WEBSITE: https://drrobot333.github.io/theme-academic-cv/
+    ISCURRENT: False
+    CURRENT_WORKPLACE: MS Student, POSTECH
+  - ID: uijinyou
+    NAME: Uijin You
+    POSITION: Undergraduate
+    IMAGE: /people/uijinyou.jpg
+    EMAIL: yuj0508@konkuk.ac.kr
+    WEBSITE: 
+    ISCURRENT: False
+    CURRENT_WORKPLACE: MS Student, Seoul National Univ.
+  - ID: heejinkim
+    NAME: Heejin Kim
+    POSITION: M.S.
+    IMAGE: /people/heejinkim.jpg
+    EMAIL: juliet13579@konkuk.ac.kr
+    FIELD: Optimal ensemble of distributed DNN models
+    WEBSITE: 
+    ISCURRENT: True
+    CURRENT_WORKPLACE:
+  - ID: sehunjung
+    NAME: Sehun Jung
+    POSITION: Undergraduate
+    IMAGE: /people/sehunjung.png
+    EMAIL: sehunjung@konkuk.ac.kr
+    WEBSITE: 
+    ISCURRENT: False
+    CURRENT_WORKPLACE:
+  - ID: hyunheeko
+    NAME: Hyunhee Ko
+    POSITION: M.S.
+    IMAGE: /people/hyunheeko.jpg
+    EMAIL: hope010227@konkuk.ac.kr
+    FIELD: Knowledge Distillation and Robustness
+    WEBSITE: 
+    ISCURRENT: True
+    CURRENT_WORKPLACE:
+  - ID: chanyoungpark
+    NAME: Chanyoung Park
+    POSITION: M.S.
+    IMAGE: /people/chanyoungpark.jpg
+    EMAIL: atoz89961@konkuk.ac.kr
+    FIELD: Vision-language navigation
+    WEBSITE: 
+    ISCURRENT: True
+    CURRENT_WORKPLACE: 
+  - ID: kwanheelee
+    NAME: Kwanhee Lee
+    POSITION: Undergraduate
+    IMAGE: /people/kwanheelee.png
+    EMAIL: example@konkuk.ac.kr
+    WEBSITE: https://kwanhee-lee.github.io
+    ISCURRENT: False
+    CURRENT_WORKPLACE: MS Student, POSTECH
+  - ID: hwanheekim
+    NAME: Hwanhee Kim
+    POSITION: Undergraduate
+    IMAGE: /people/hwanheekim.png
+    EMAIL: example@konkuk.ac.kr
+    WEBSITE: 
+    ISCURRENT: False
+    CURRENT_WORKPLACE: MS Student, KAIST
+  - ID: vaughnsohn
+    NAME: Vaughn Sohn
+    POSITION: Undergraduate
+    IMAGE: /people/vaughnsohn.png
+    EMAIL: example@konkuk.ac.kr
+    WEBSITE: 
+    ISCURRENT: False
+    CURRENT_WORKPLACE: MS Student, KAIST
+  - ID: joonyoungmoon
+    NAME: Joonyoung Moon
+    POSITION: M.S.
+    IMAGE: /people/joonyoungmoon.png
+    EMAIL: example@konkuk.ac.kr
+    WEBSITE:
+    ISCURRENT: False
+    CURRENT_WORKPLACE: Kakao Pay
+  - ID: yeongseoryu
+    NAME: Yeongseo Ryu
+    POSITION: M.S.
+    IMAGE: /people/unknown.png
+    EMAIL: example@konkuk.ac.kr
+    WEBSITE:
+    ISCURRENT: False
+    CURRENT_WORKPLACE: Daou Tech
+  - ID: suminsong
+    NAME: Sumin Song
+    POSITION: Undergraduate
+    IMAGE: /people/suminsong.jpg
+    EMAIL: ku2001songsu@konkuk.ac.kr
+    FIELD: Multimodal AI services
+    WEBSITE:
+    ISCURRENT: True
+  - ID: sangminin
+    NAME: Sangmin In
+    POSITION: Undergraduate
+    IMAGE: /people/unknown.png
+    EMAIL: dlstkdals123@konkuk.ac.kr
+    FIELD: Multimodal AI services
+    WEBSITE: https://github.com/dlstkdals123/
+    ISCURRENT: True
+  - ID: jinwoopark
+    NAME: Jinwoo Park
+    POSITION: Undergraduate
+    IMAGE: /people/unknown.png
+    EMAIL: parkjinwoo01@konkuk.ac.kr
+    FIELD: Multimodal AI services
+    WEBSITE: 
+    ISCURRENT: True
+  - ID: seonggwonpark
+    NAME: Seonggwon Park
+    POSITION: Undergraduate
+    IMAGE: /people/unknown.png
+    EMAIL: p0730p@konkuk.ac.kr
+    FIELD: Robustness
+    WEBSITE: 
+    ISCURRENT: True
