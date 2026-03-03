@@ -4,6 +4,10 @@ import yaml from 'js-yaml';
 import PersonCard from 'components/PersonCard';
 import styles from 'styles/People.module.css';
 
+const toPublicUrl = (u = "") =>
+  /^https?:\/\//i.test(u) ? u : (process.env.PUBLIC_URL + (u.startsWith("/") ? u : `/${u}`));
+
+
 const normalizeUrl = (url = '') =>
   /^https?:\/\//i.test(url) ? url : `https://${url}`;
 
@@ -56,7 +60,7 @@ const People = () => {
                 {people.map(person => (
                     <li key={person.ID}>
                         {person.WEBSITE ? (
-                          <a href={normalizeUrl(person.WEBSITE)}
+                          <a href={toPublicUrl(normalizeUrl(person.WEBSITE))}
                             target="_blank"
                             rel="noopener noreferrer">
                           {person.NAME} </a>
@@ -80,7 +84,7 @@ const People = () => {
                 {people.map(person => (
                     <li key={person.ID}>
                         {person.WEBSITE ? (
-                          <a href={normalizeUrl(person.WEBSITE)}
+                          <a href={toPublicUrl(normalizeUrl(person.WEBSITE))}
                             target="_blank"
                             rel="noopener noreferrer">
                             {person.NAME} </a>

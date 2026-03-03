@@ -3,6 +3,10 @@ import axios from 'axios';
 import yaml from 'js-yaml';
 import styles from 'styles/Footer.module.css';
 
+const toPublicUrl = (u = "") =>
+  /^https?:\/\//i.test(u) ? u : (process.env.PUBLIC_URL + (u.startsWith("/") ? u : `/${u}`));
+
+
 const Footer = () => {
   const [contact, setContact] = useState({});
 
@@ -27,7 +31,7 @@ const Footer = () => {
           <h4>Contact</h4>
           <p>Address: {contact.ADDRESS}</p>
           <p>Phone: {contact.PHONE}</p>
-          <p>Email: <a href={`mailto:${contact.EMAIL}`}>{contact.EMAIL}</a></p>
+          <p>Email: <a href={toPublicUrl(`mailto:${contact.EMAIL}`)}>{contact.EMAIL}</a></p>
         </div>
       </div>
     </footer>

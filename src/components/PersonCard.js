@@ -1,6 +1,10 @@
 import React from 'react';
 import styles from 'styles/PersonCard.module.css';
 
+const toPublicUrl = (u = "") =>
+  /^https?:\/\//i.test(u) ? u : (process.env.PUBLIC_URL + (u.startsWith("/") ? u : `/${u}`));
+
+
 const normalizeUrl = (url='') => (/^https?:\/\//i.test(url) ? url : `https://${url}`);
 
 const PersonCard = ({ person }) => (
@@ -9,7 +13,7 @@ const PersonCard = ({ person }) => (
     {person.ISCURRENT && (
       person.WEBSITE ? (
         <a
-          href={normalizeUrl(person.WEBSITE)}
+          href={toPublicUrl(normalizeUrl(person.WEBSITE))}
           target="_blank"
           rel="noopener noreferrer"
           aria-label={`${person.NAME} website`}
@@ -22,7 +26,7 @@ const PersonCard = ({ person }) => (
     )}
   
     {person.WEBSITE ? (
-        <a href={normalizeUrl(person.WEBSITE)} className={styles.name} target="_blank" rel="noopener noreferrer">
+        <a href={toPublicUrl(normalizeUrl(person.WEBSITE))} className={styles.name} target="_blank" rel="noopener noreferrer">
           <p className={styles.nameText}>{person.NAME}</p>
         </a>
       ) : (

@@ -6,6 +6,10 @@ import "react-photo-album/rows.css";
 import "react-photo-album/masonry.css";
 import styles from 'styles/Photos.module.css';
 
+const toPublicUrl = (u = "") =>
+  /^https?:\/\//i.test(u) ? u : (process.env.PUBLIC_URL + (u.startsWith("/") ? u : `/${u}`));
+
+
 const Photos = () => {
   const [photosData, setPhotosData] = useState([]);
 

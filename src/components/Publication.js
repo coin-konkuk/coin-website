@@ -3,6 +3,9 @@ import axios from 'axios';
 import yaml from 'js-yaml';
 import styles from 'styles/Publication.module.css';
 
+const toPublicUrl = (u = "") =>
+  /^https?:\/\//i.test(u) ? u : (process.env.PUBLIC_URL + (u.startsWith("/") ? u : `/${u}`));
+
 const Publication = ({ publication }) => {
   const [authors, setAuthors] = useState({});
 
@@ -31,7 +34,7 @@ const Publication = ({ publication }) => {
 
     if (authorInfo) {
       return authorInfo.WEBSITE 
-        ? <span key={author.ID}><a className={styles.name} href={authorInfo.WEBSITE} target="_blank" rel="noopener noreferrer">{authorInfo.NAME}</a>{separator}</span>
+        ? <span key={author.ID}><a className={styles.name} href={toPublicUrl(authorInfo.WEBSITE)} target="_blank" rel="noopener noreferrer">{authorInfo.NAME}</a>{separator}</span>
         : <span key={author.ID}>{authorInfo.NAME}{separator}</span>;
     } else {
       return <span key={author.ID}>{author.ID}{separator}</span>;
@@ -46,8 +49,8 @@ const Publication = ({ publication }) => {
         <p>{renderAuthors}</p>
         <p>{publication.VENUE}</p>
         <div className={styles.links}>
-          {publication.PDF && <a href={publication.PDF} target="_blank" rel="noopener noreferrer">[PDF]</a>}
-          {publication.CODE && <a href={publication.CODE} target="_blank" rel="noopener noreferrer">[Code]</a>}
+          {publication.PDF && <a href={toPublicUrl(publication.PDF)} target="_blank" rel="noopener noreferrer">[PDF]</a>}
+          {publication.CODE && <a href={toPublicUrl(publication.CODE)} target="_blank" rel="noopener noreferrer">[Code]</a>}
         </div>
       </div>
     </div>
