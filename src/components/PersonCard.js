@@ -14,10 +14,10 @@ const PersonCard = ({ person }) => (
           rel="noopener noreferrer"
           aria-label={`${person.NAME} website`}
         >
-          <img src={person.IMAGE} alt={person.NAME} className={styles.clickableImg} />
+          <img src={process.env.PUBLIC_URL + person.IMAGE} alt={person.NAME} className={styles.clickableImg} />
         </a>
       ) : (
-        <img src={person.IMAGE} alt={person.NAME} />
+        <img src={process.env.PUBLIC_URL + person.IMAGE} alt={person.NAME} />
       )
     )}
   

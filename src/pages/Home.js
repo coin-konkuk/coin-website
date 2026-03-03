@@ -63,7 +63,7 @@ const Home = () => {
               <h3 className={styles.topicTitle}>{topic.TITLE}</h3>
               {topic.PICTURE && (
                 <img
-                  src={topic.PICTURE}
+                  src={process.env.PUBLIC_URL + topic.PICTURE}
                   alt={topic.TITLE}
                   className={styles.topicImage}
                 />

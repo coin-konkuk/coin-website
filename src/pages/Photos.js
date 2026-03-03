@@ -19,7 +19,7 @@ const Photos = () => {
         const photosWithDimensions = data.PHOTOS.map((yearData) => {
           const workshopsWithDimensions = yearData.WORKSHOPS.map((workshop) => {
             const filesWithDimensions = workshop.FILES.map((file) => ({
-              src: file.FILE,
+              src: process.env.PUBLIC_URL + file.FILE,
               width: file.WIDTH,
               height: file.HEIGHT,
             }));
