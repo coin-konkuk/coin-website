@@ -9,7 +9,7 @@ const Publication = ({ publication }) => {
   useEffect(() => {
     const fetchAuthors = async () => {
       try {
-        const response = await axios.get('/contents/people.yaml');
+        const response = await axios.get(process.env.PUBLIC_URL + '/contents/people.yaml');
         const data = yaml.load(response.data);
         const authorMap = {};
         data.PEOPLE.forEach(person => {

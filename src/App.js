@@ -11,16 +11,16 @@ import styles from 'styles/App.module.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Header />
       <div className={styles.container}>
         <Routes>
-        <Route path="/home" element={<Home />} />
-          <Route path="/people" element={<People />} />
-          <Route path="/publications" element={<Publications />} />
-          <Route path="/photos" element={<Photos />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/" element={<Home />} />
+        <Route path={"/home"} element={<Home />} />
+          <Route path={"/people"} element={<People />} />
+          <Route path={"/publications"} element={<Publications />} />
+          <Route path={"/photos"} element={<Photos />} />
+          <Route path={"/contact"} element={<Contact />} />
+          <Route path={"/"} element={<Home />} />
         </Routes>
       </div>
       <Footer />

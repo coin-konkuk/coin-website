@@ -11,7 +11,7 @@ const Contact = () => {
   useEffect(() => {
     const fetchContactData = async () => {
       try {
-        const response = await axios.get('/contents/contact.yaml');
+        const response = await axios.get(process.env.PUBLIC_URL + '/contents/contact.yaml');
         const data = yaml.load(response.data);
         setContactData(data.CONTACT);
       } catch (error) {

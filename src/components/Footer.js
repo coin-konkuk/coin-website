@@ -9,7 +9,7 @@ const Footer = () => {
   useEffect(() => {
     const fetchFooterData = async () => {
       try {
-        const response = await axios.get('/contents/footer.yaml');
+        const response = await axios.get(process.env.PUBLIC_URL + '/contents/footer.yaml');
         const data = yaml.load(response.data);
         setContact(data.INFORMATION);
       } catch (error) {

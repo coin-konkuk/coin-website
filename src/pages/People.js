@@ -13,7 +13,7 @@ const People = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('/contents/people.yaml');
+        const response = await axios.get(process.env.PUBLIC_URL + '/contents/people.yaml');
         const data = yaml.load(response.data);
         setPeople(data.PEOPLE);
       } catch (error) {

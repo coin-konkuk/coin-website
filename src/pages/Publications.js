@@ -10,7 +10,7 @@ const Publications = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('/contents/publications.yaml');
+        const response = await axios.get(process.env.PUBLIC_URL + '/contents/publications.yaml');
         const data = yaml.load(response.data);
         setPublications(data.PUBLICATIONS);
       } catch (error) {

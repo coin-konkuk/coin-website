@@ -12,7 +12,7 @@ const Photos = () => {
   useEffect(() => {
     const fetchPhotosData = async () => {
       try {
-        const response = await axios.get('contents/photos.yaml');
+        const response = await axios.get(process.env.PUBLIC_URL + '/contents/photos.yaml');
         const data = yaml.load(response.data);
         
         // Fetch the photo data directly with width and height from YAML

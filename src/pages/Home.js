@@ -13,7 +13,7 @@ const Home = () => {
   useEffect(() => {
     const fetchHomeData = async () => {
       try {
-        const response = await axios.get('/contents/home.yaml');
+        const response = await axios.get(process.env.PUBLIC_URL + '/contents/home.yaml');
         const data = yaml.load(response.data);
         setHomeData(data.HOME);
       } catch (error) {
@@ -23,7 +23,7 @@ const Home = () => {
 
     const fetchResearchTopics = async () => {
       try {
-        const response = await axios.get('contents/research_topics.yaml');
+        const response = await axios.get(process.env.PUBLIC_URL + '/contents/research_topics.yaml');
         const data = yaml.load(response.data);
         setResearchTopics(data.TOPICS);
       } catch (error) {
@@ -33,7 +33,7 @@ const Home = () => {
 
     const fetchNews = async () => {
       try {
-        const response = await axios.get('contents/news.yaml');
+        const response = await axios.get(process.env.PUBLIC_URL + '/contents/news.yaml');
         const data = yaml.load(response.data);
         setNews(data.NEWS);
       } catch (error) {
