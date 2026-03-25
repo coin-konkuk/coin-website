@@ -26,7 +26,7 @@
     "eject": "react-scripts eject",
     "serve": "serve -s build",
     "predeploy": "npm run build",
-    "deploy": "echo coin.konkuk.ac.kr > build/CNAME && gh-pages -d build"
+    "deploy": "gh-pages -d build"
     
   },
   "eslintConfig": {
