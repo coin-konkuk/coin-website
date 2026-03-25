@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/coin-website/static/css/main.970073c6.css",
-    "main.js": "/coin-website/static/js/main.412aada6.js",
-    "static/js/453.40fd1008.chunk.js": "/coin-website/static/js/453.40fd1008.chunk.js",
-    "static/media/SpoqaHanSansNeo-Thin.ttf": "/coin-website/static/media/SpoqaHanSansNeo-Thin.4abb192ec0ea456353ff.ttf",
-    "static/media/SpoqaHanSansNeo-Light.ttf": "/coin-website/static/media/SpoqaHanSansNeo-Light.71d8174224ae0bcbefb2.ttf",
-    "static/media/SpoqaHanSansNeo-Regular.ttf": "/coin-website/static/media/SpoqaHanSansNeo-Regular.95ececb5af85b0f66467.ttf",
-    "static/media/SpoqaHanSansNeo-Medium.ttf": "/coin-website/static/media/SpoqaHanSansNeo-Medium.a870c85269daef382037.ttf",
-    "static/media/SpoqaHanSansNeo-Bold.ttf": "/coin-website/static/media/SpoqaHanSansNeo-Bold.302cca049a794dc06645.ttf",
-    "static/media/WantedSans-Regular.ttf": "/coin-website/static/media/WantedSans-Regular.fbb36e8d7b61f8d587c4.ttf",
-    "static/media/WantedSans-Medium.ttf": "/coin-website/static/media/WantedSans-Medium.3112862fafa2343a631c.ttf",
-    "static/media/WantedSans-ExtraBlack.ttf": "/coin-website/static/media/WantedSans-ExtraBlack.00719df6c7a99ee85deb.ttf",
-    "static/media/WantedSans-SemiBold.ttf": "/coin-website/static/media/WantedSans-SemiBold.66ddac71971247862343.ttf",
-    "static/media/WantedSans-Black.ttf": "/coin-website/static/media/WantedSans-Black.e72b2d8971682d086368.ttf",
-    "static/media/WantedSans-ExtraBold.ttf": "/coin-website/static/media/WantedSans-ExtraBold.96b66c90d25aac9230b5.ttf",
-    "static/media/WantedSans-Bold.ttf": "/coin-website/static/media/WantedSans-Bold.6cf9cb8b7245b9eb2641.ttf",
-    "static/media/Roboto-Regular.ttf": "/coin-website/static/media/Roboto-Regular.f25bd05915c1a3468d3d.ttf",
-    "index.html": "/coin-website/index.html",
-    "main.970073c6.css.map": "/coin-website/static/css/main.970073c6.css.map",
-    "main.412aada6.js.map": "/coin-website/static/js/main.412aada6.js.map",
-    "453.40fd1008.chunk.js.map": "/coin-website/static/js/453.40fd1008.chunk.js.map"
+    "main.css": "/static/css/main.1d8606aa.css",
+    "main.js": "/static/js/main.680edca1.js",
+    "static/js/453.40fd1008.chunk.js": "/static/js/453.40fd1008.chunk.js",
+    "static/media/SpoqaHanSansNeo-Thin.ttf": "/static/media/SpoqaHanSansNeo-Thin.4abb192ec0ea456353ff.ttf",
+    "static/media/SpoqaHanSansNeo-Light.ttf": "/static/media/SpoqaHanSansNeo-Light.71d8174224ae0bcbefb2.ttf",
+    "static/media/SpoqaHanSansNeo-Regular.ttf": "/static/media/SpoqaHanSansNeo-Regular.95ececb5af85b0f66467.ttf",
+    "static/media/SpoqaHanSansNeo-Medium.ttf": "/static/media/SpoqaHanSansNeo-Medium.a870c85269daef382037.ttf",
+    "static/media/SpoqaHanSansNeo-Bold.ttf": "/static/media/SpoqaHanSansNeo-Bold.302cca049a794dc06645.ttf",
+    "static/media/WantedSans-Regular.ttf": "/static/media/WantedSans-Regular.fbb36e8d7b61f8d587c4.ttf",
+    "static/media/WantedSans-Medium.ttf": "/static/media/WantedSans-Medium.3112862fafa2343a631c.ttf",
+    "static/media/WantedSans-ExtraBlack.ttf": "/static/media/WantedSans-ExtraBlack.00719df6c7a99ee85deb.ttf",
+    "static/media/WantedSans-SemiBold.ttf": "/static/media/WantedSans-SemiBold.66ddac71971247862343.ttf",
+    "static/media/WantedSans-Black.ttf": "/static/media/WantedSans-Black.e72b2d8971682d086368.ttf",
+    "static/media/WantedSans-ExtraBold.ttf": "/static/media/WantedSans-ExtraBold.96b66c90d25aac9230b5.ttf",
+    "static/media/WantedSans-Bold.ttf": "/static/media/WantedSans-Bold.6cf9cb8b7245b9eb2641.ttf",
+    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.f25bd05915c1a3468d3d.ttf",
+    "index.html": "/index.html",
+    "main.1d8606aa.css.map": "/static/css/main.1d8606aa.css.map",
+    "main.680edca1.js.map": "/static/js/main.680edca1.js.map",
+    "453.40fd1008.chunk.js.map": "/static/js/453.40fd1008.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.970073c6.css",
-    "static/js/main.412aada6.js"
+    "static/css/main.1d8606aa.css",
+    "static/js/main.680edca1.js"
   ]
 }
