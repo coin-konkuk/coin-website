@@ -9,6 +9,11 @@ PHOTOS:
   #         - FILE: /people/hyangwonlee.jpg
   - YEAR: 2025
     WORKSHOPS:
+      - TITLE: 2025 Fall Hiking
+        FILES:
+          - FILE: /workshops/2025_fall/2025_fall_hiking.jpg
+            WIDTH: 4032
+            HEIGHT: 4032
       - TITLE: 2025 Winter Workshop
         FILES:
           - FILE: /workshops/2025_winter/2025_winter.jpg
