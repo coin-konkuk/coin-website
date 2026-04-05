@@ -7,6 +7,14 @@ PHOTOS:
   #         - FILE: /people/hyangwonlee.jpg
   #         - FILE: /people/hyangwonlee.jpg
   #         - FILE: /people/hyangwonlee.jpg
+  - YEAR: 2026
+    WORKSHOPS:
+      - TITLE: 2026 Spring Hiking
+         FILES: 
+           - FILE: /workshops/2026_spring/2026_spring_hiking.jpg
+             WIDTH: 3213
+             HIGHT: 3213
+
   - YEAR: 2025
     WORKSHOPS:
       - TITLE: 2025 Fall Hiking
