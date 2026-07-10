@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d8606aa.css",
-    "main.js": "/static/js/main.680edca1.js",
+    "main.css": "/static/css/main.1dc7c128.css",
+    "main.js": "/static/js/main.7abf8368.js",
     "static/js/453.40fd1008.chunk.js": "/static/js/453.40fd1008.chunk.js",
     "static/media/SpoqaHanSansNeo-Thin.ttf": "/static/media/SpoqaHanSansNeo-Thin.4abb192ec0ea456353ff.ttf",
     "static/media/SpoqaHanSansNeo-Light.ttf": "/static/media/SpoqaHanSansNeo-Light.71d8174224ae0bcbefb2.ttf",
@@ -10,19 +10,17 @@
     "static/media/SpoqaHanSansNeo-Bold.ttf": "/static/media/SpoqaHanSansNeo-Bold.302cca049a794dc06645.ttf",
     "static/media/WantedSans-Regular.ttf": "/static/media/WantedSans-Regular.fbb36e8d7b61f8d587c4.ttf",
     "static/media/WantedSans-Medium.ttf": "/static/media/WantedSans-Medium.3112862fafa2343a631c.ttf",
-    "static/media/WantedSans-ExtraBlack.ttf": "/static/media/WantedSans-ExtraBlack.00719df6c7a99ee85deb.ttf",
     "static/media/WantedSans-SemiBold.ttf": "/static/media/WantedSans-SemiBold.66ddac71971247862343.ttf",
     "static/media/WantedSans-Black.ttf": "/static/media/WantedSans-Black.e72b2d8971682d086368.ttf",
     "static/media/WantedSans-ExtraBold.ttf": "/static/media/WantedSans-ExtraBold.96b66c90d25aac9230b5.ttf",
     "static/media/WantedSans-Bold.ttf": "/static/media/WantedSans-Bold.6cf9cb8b7245b9eb2641.ttf",
-    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.f25bd05915c1a3468d3d.ttf",
     "index.html": "/index.html",
-    "main.1d8606aa.css.map": "/static/css/main.1d8606aa.css.map",
-    "main.680edca1.js.map": "/static/js/main.680edca1.js.map",
+    "main.1dc7c128.css.map": "/static/css/main.1dc7c128.css.map",
+    "main.7abf8368.js.map": "/static/js/main.7abf8368.js.map",
     "453.40fd1008.chunk.js.map": "/static/js/453.40fd1008.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d8606aa.css",
-    "static/js/main.680edca1.js"
+    "static/css/main.1dc7c128.css",
+    "static/js/main.7abf8368.js"
   ]
 }
