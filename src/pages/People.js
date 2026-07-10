@@ -65,7 +65,6 @@ const People = () => {
                             rel="noopener noreferrer">
                           {person.NAME} </a>
                         ) : (person.NAME)}
-                        <span className={styles.alumniInformation}>{person.POSITION}</span>
                         {person.CURRENT_WORKPLACE && (
                           <span className={styles.alumniInformation}> {' '} - {person.CURRENT_WORKPLACE} </span>)}
                     </li>
