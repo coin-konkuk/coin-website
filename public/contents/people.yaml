@@ -40,7 +40,7 @@ PEOPLE:
     EMAIL: sehunjung@konkuk.ac.kr
     WEBSITE: 
     ISCURRENT: False
-    CURRENT_WORKPLACE:
+    CURRENT_WORKPLACE: MS Student, Korea Univ.
   - ID: hyunheeko
     NAME: Hyunhee Ko
     POSITION: M.S.
@@ -85,20 +85,20 @@ PEOPLE:
     CURRENT_WORKPLACE: MS Student, KAIST
   - ID: joonyoungmoon
     NAME: Joonyoung Moon
-    POSITION: M.S.
+    POSITION: 
     IMAGE: /people/joonyoungmoon.png
     EMAIL: example@konkuk.ac.kr
     WEBSITE:
     ISCURRENT: False
-    CURRENT_WORKPLACE: Kakao Pay
+    CURRENT_WORKPLACE: MS Student, Kakao Pay
   - ID: yeongseoryu
     NAME: Yeongseo Ryu
-    POSITION: M.S.
+    POSITION: 
     IMAGE: /people/unknown.png
     EMAIL: example@konkuk.ac.kr
     WEBSITE:
     ISCURRENT: False
-    CURRENT_WORKPLACE: Daou Tech
+    CURRENT_WORKPLACE: MS Student, Daou Tech
   - ID: suminsong
     NAME: Sumin Song
     POSITION: Undergraduate
