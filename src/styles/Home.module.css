@@ -1,108 +1,254 @@
 .container {
-  padding: 20px;
-  max-width: 1200px;
   margin: 0 auto;
 }
 
+/* ===== Hero ===== */
+.hero {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background-color: var(--bg-soft);
+  background-image:
+    radial-gradient(640px 320px at 12% -10%, rgba(59, 130, 246, 0.22), transparent 70%),
+    radial-gradient(560px 300px at 88% 10%, rgba(139, 124, 246, 0.16), transparent 70%),
+    linear-gradient(rgba(148, 163, 184, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, 0.05) 1px, transparent 1px);
+  background-size: auto, auto, 44px 44px, 44px 44px;
+  padding: 72px 56px;
+  margin-bottom: 56px;
+}
+
+.heroContent {
+  max-width: 760px;
+}
+
+.heroEyebrow {
+  margin: 0 0 10px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  animation: fadeUp 0.6s ease both;
+}
+
+.heroTitle {
+  margin: 0;
+  font-size: clamp(34px, 5.4vw, 56px);
+  font-weight: 800;
+  line-height: 1.12;
+  letter-spacing: -0.025em;
+  color: #ffffff; /* 그라디언트 텍스트 미지원 브라우저 폴백 */
+  animation: fadeUp 0.6s ease 0.08s both;
+}
+
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+  .heroTitle {
+    background: linear-gradient(115deg, #ffffff 30%, #9fc6ff 70%, #b3a7ff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.heroSubtitle {
+  margin: 20px 0 0;
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  animation: fadeUp 0.6s ease 0.16s both;
+}
+
+.heroKeywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 28px;
+  animation: fadeUp 0.6s ease 0.24s both;
+}
+
+.heroKeyword {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  background-color: rgba(94, 176, 255, 0.08);
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 500;
+  transition: border-color var(--transition), color var(--transition),
+    background-color var(--transition);
+}
+
+.heroKeyword:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background-color: var(--accent-soft);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== Sections ===== */
 .section {
-  margin-bottom: 30px;
-  border-bottom: 1px solid #efefef;
+  margin-bottom: 64px;
 }
 
 .section h2 {
-  margin-bottom: 0px;
-  padding-bottom: 2px;
-  display: inline-block;
-  border-bottom: 4px solid #001f3f;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 27px;
+  font-weight: 700;
+  margin: 0 0 20px;
 }
 
+.section h2::before {
+  content: '';
+  width: 4px;
+  height: 24px;
+  border-radius: 2px;
+  background: var(--gradient);
+}
 
-/* .topicsContainer {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-} */
+.sectionBody {
+  max-width: 860px;
+  color: var(--text-secondary);
+  font-size: 16.5px;
+}
 
+.sectionBody p {
+  margin: 0 0 14px;
+}
+
+/* ===== Research Topics ===== */
 .topicsContainer {
   display: grid;
-  grid-auto-flow: column;
-  grid-template-rows: repeat(3, auto);   /* 3행 고정 */
-  grid-auto-columns: minmax(320px, 1fr); /* 각 열 너비 */
-  gap: 20px;
-  margin: 20px 0 0 0
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 22px;
 }
-
-/* .topic {
-  flex: 1 1 calc(33.333% - 20px); /* 3개씩 배치, 간격을 고려한 너비
-  box-sizing: border-box;
-  margin-top: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-} */
 
 .topic {
-  display: grid;
-  grid-template-columns: minmax(300px, 1fr) 1fr; /* 좌우 1/2 */
-  grid-template-areas:
-    "img title"
-    "img  desc";
-  column-gap: 24px;
-  align-items: start;
-  box-sizing: border-box;
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background-color: var(--card);
+  padding: 18px;
+  transition: transform var(--transition), border-color var(--transition),
+    background-color var(--transition), box-shadow var(--transition);
 }
 
-/* .topicImage {
-  max-width: 100%;
-  width: 300px; /* 원하는 너비
-  height: 200px; /* 원하는 높이
-  object-fit: cover; /* 이미지 비율을 유지하며 자름
-  margin-bottom: 10px;
-} */
+.topic:hover {
+  transform: translateY(-3px);
+  border-color: var(--border-strong);
+  background-color: var(--card-hover);
+  box-shadow: var(--shadow);
+}
 
-/* 각 영역 배치 */
+.topicImageWrap {
+  border-radius: var(--radius-sm);
+  background-color: var(--figure-bg);
+  padding: 10px;
+  margin-bottom: 16px;
+}
+
 .topicImage {
-  grid-area: img;
+  display: block;
   width: 100%;
-  width: 500px;      /* 필요 시 조정 */
-  height: 240px; 
+  height: 190px;
   object-fit: contain;
-  margin: 0;
 }
 
 .topicTitle {
-  grid-area: title;
-  margin: 5px;
-  text-align: left;
-  align-self: end;
+  margin: 0 0 8px;
+  font-size: 18.5px;
+  font-weight: 700;
 }
 
 .topicDesc {
-  grid-area: desc;
-  margin: 5px;
-  line-height: 1.5;
+  margin: 0;
+  font-size: 14.5px;
+  line-height: 1.65;
+  color: var(--text-muted);
 }
 
-/* 반응형: 좁은 화면에서는 세로(이미지→제목→설명) */
-@media (max-width: 768px) {
-  .topic {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "img"
-      "title"
-      "desc";
-    text-align: center;
-  }
-  .topicImage { max-width: 100%; }
+/* ===== News ===== */
+.newsYearBlock {
+  margin-bottom: 26px;
+}
+
+.newsYear {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 0 12px;
+  padding: 4px 14px;
+  border-radius: 999px;
+  background-color: var(--accent-soft);
+  border: 1px solid rgba(94, 176, 255, 0.25);
+  color: var(--accent);
+  font-size: 15px;
+  font-weight: 700;
 }
 
 .newsList {
-  list-style-type: none;
-  padding-left: 0;
+  list-style: none;
+  margin: 0;
+  padding: 2px 0 0 6px;
 }
 
 .newsList li {
+  position: relative;
+  padding-left: 20px;
   margin-bottom: 10px;
+  color: var(--text-secondary);
+}
+
+.newsList li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.62em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.newsList li p {
+  margin: 0;
+}
+
+.newsList li strong {
+  color: var(--text);
+}
+
+/* ===== 반응형 ===== */
+@media (max-width: 768px) {
+  .hero {
+    padding: 44px 24px;
+    margin-bottom: 44px;
+  }
+
+  .heroSubtitle {
+    font-size: 16px;
+  }
+
+  .section {
+    margin-bottom: 48px;
+  }
+
+  .section h2 {
+    font-size: 23px;
+  }
 }

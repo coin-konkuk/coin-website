@@ -1,5 +1,12 @@
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 90px 20px 20px 20px; /* 헤더 높이만큼의 패딩 추가 */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 92px 20px 48px; /* 상단은 고정 헤더 높이만큼 확보 */
+  min-height: calc(100vh - 320px);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 76px 16px 40px;
   }
+}

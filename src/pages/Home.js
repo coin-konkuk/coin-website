@@ -7,6 +7,7 @@ import styles from 'styles/Home.module.css';
 
 const Home = () => {
   const [homeData, setHomeData] = useState([]);
+  const [hero, setHero] = useState(null);
   const [researchTopics, setResearchTopics] = useState([]);
   const [news, setNews] = useState([]);
 
@@ -16,6 +17,7 @@ const Home = () => {
         const response = await axios.get(process.env.PUBLIC_URL + '/contents/home.yaml');
         const data = yaml.load(response.data);
         setHomeData(data.HOME);
+        setHero(data.HERO || null);
       } catch (error) {
         console.error('Error fetching home data:', error);
       }
@@ -48,10 +50,29 @@ const Home = () => {
 
   return (
     <div className={styles.container}>
+      {hero && (
+        <section className={styles.hero}>
+          <div className={styles.heroContent}>
+            {hero.EYEBROW && <p className={styles.heroEyebrow}>{hero.EYEBROW}</p>}
+            {hero.TITLE && <h1 className={styles.heroTitle}>{hero.TITLE}</h1>}
+            {hero.SUBTITLE && <p className={styles.heroSubtitle}>{hero.SUBTITLE}</p>}
+            {hero.KEYWORDS && (
+              <div className={styles.heroKeywords}>
+                {hero.KEYWORDS.map((keyword, index) => (
+                  <span key={index} className={styles.heroKeyword}>{keyword}</span>
+                ))}
+              </div>
+            )}
+          </div>
+        </section>
+      )}
+
       {homeData.map((section, index) => (
         <div key={index} className={styles.section}>
           <h2>{section.TITLE}</h2>
-          <ReactMarkdown rehypePlugins={[remarkBreaks]}>{section.TEXT}</ReactMarkdown>
+          <div className={styles.sectionBody}>
+            <ReactMarkdown rehypePlugins={[remarkBreaks]}>{section.TEXT}</ReactMarkdown>
+          </div>
         </div>
       ))}
 
@@ -60,14 +81,16 @@ const Home = () => {
         <div className={styles.topicsContainer}>
           {researchTopics.map((topic, index) => (
             <div key={index} className={styles.topic}>
-              <h3 className={styles.topicTitle}>{topic.TITLE}</h3>
               {topic.PICTURE && (
-                <img
-                  src={process.env.PUBLIC_URL + topic.PICTURE}
-                  alt={topic.TITLE}
-                  className={styles.topicImage}
-                />
+                <div className={styles.topicImageWrap}>
+                  <img
+                    src={process.env.PUBLIC_URL + topic.PICTURE}
+                    alt={topic.TITLE}
+                    className={styles.topicImage}
+                  />
+                </div>
               )}
+              <h3 className={styles.topicTitle}>{topic.TITLE}</h3>
               {topic.DESCRIPTION && (
                 <p className={styles.topicDesc}>{topic.DESCRIPTION}</p>
               )}
@@ -79,8 +102,8 @@ const Home = () => {
       <div className={styles.section}>
         <h2>News</h2>
         {news.slice(0, 3).map((yearData, index) => (
-          <div key={index}>
-            <h3>{yearData.YEAR}</h3>
+          <div key={index} className={styles.newsYearBlock}>
+            <h3 className={styles.newsYear}>{yearData.YEAR}</h3>
             <ul className={styles.newsList}>
               {yearData.ITEMS.map((item, index) => (
                 <li key={index}>

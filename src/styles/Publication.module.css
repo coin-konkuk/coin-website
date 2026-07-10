@@ -2,49 +2,124 @@
   display: flex;
   align-items: flex-start;
   gap: 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background-color: var(--card);
+  padding: 18px;
+  transition: transform var(--transition), border-color var(--transition),
+    background-color var(--transition), box-shadow var(--transition);
+}
+
+.publication:hover {
+  transform: translateY(-2px);
+  border-color: var(--border-strong);
+  background-color: var(--card-hover);
+  box-shadow: var(--shadow);
+}
+
+.imageWrap {
+  flex: 0 0 auto;
+  border-radius: var(--radius-sm);
+  background-color: var(--figure-bg);
+  padding: 6px;
 }
 
 .image {
-  width: 150px;
+  display: block;
+  width: 160px;
   height: 120px;
-  object-fit: cover;
-  border-radius: 8px;
+  object-fit: contain;
+}
+
+.imagePlaceholder {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 120px;
+  padding: 6px;
+  border-radius: var(--radius-sm);
+  border: 1px dashed var(--border-strong);
+  background-color: rgba(148, 163, 184, 0.05);
+  color: var(--text-muted);
 }
 
 .details {
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
 
-.details h3 {
-  margin: 0 0 10px 0;
+.title {
+  margin: 0 0 6px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.45;
 }
 
-.details p {
-  margin: 5px 0;
+.authors {
+  margin: 0 0 4px;
+  font-size: 14.5px;
+  color: var(--text-secondary);
+}
+
+.venue {
+  margin: 0;
+  font-size: 14px;
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+.links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
 }
 
 .links a {
-  margin-right: 10px;
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(94, 176, 255, 0.35);
+  background-color: var(--accent-soft);
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 600;
   text-decoration: none;
-  color: #007bff;
+  transition: background-color var(--transition), color var(--transition),
+    border-color var(--transition);
 }
 
 .links a:hover {
+  background-color: var(--accent);
+  border-color: var(--accent);
+  color: #0a0f1e;
+}
+
+.name {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.name:hover {
   text-decoration: underline;
 }
 
-.name:link {
-  text-decoration: none;
-  color: #007bff;
-}
+@media (max-width: 768px) {
+  .publication {
+    flex-direction: column;
+  }
 
-.name:visited {
-  text-decoration: none;
-  color: #007bff;
-}
+  .imageWrap,
+  .imagePlaceholder {
+    width: 100%;
+    box-sizing: border-box;
+  }
 
-.name:link:hover {
-  text-decoration: underline;
-  color: black;
+  .image {
+    width: 100%;
+    height: 150px;
+  }
 }

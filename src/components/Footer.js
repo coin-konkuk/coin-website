@@ -27,11 +27,21 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.footerContainer}>
+        <div className={styles.labInfo}>
+          <p className={styles.labName}>Connected Intelligence Lab</p>
+          <p className={styles.copyright}>
+            &copy; {new Date().getFullYear()} CoIn Lab, Konkuk University. All rights reserved.
+          </p>
+        </div>
         <div className={styles.contactInfo}>
           <h4>Contact</h4>
-          <p>Address: {contact.ADDRESS}</p>
-          <p>Phone: {contact.PHONE}</p>
-          <p>Email: <a href={toPublicUrl(`mailto:${contact.EMAIL}`)}>{contact.EMAIL}</a></p>
+          {contact.ADDRESS && <p>{contact.ADDRESS}</p>}
+          {contact.PHONE && <p>{contact.PHONE}</p>}
+          {contact.EMAIL && (
+            <p>
+              <a href={toPublicUrl(`mailto:${contact.EMAIL}`)}>{contact.EMAIL}</a>
+            </p>
+          )}
         </div>
       </div>
     </footer>

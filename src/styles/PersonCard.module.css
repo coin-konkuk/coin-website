@@ -1,49 +1,67 @@
 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background-color: var(--card);
+  padding: 18px 14px;
+  transition: transform var(--transition), border-color var(--transition),
+    background-color var(--transition), box-shadow var(--transition);
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  border-color: var(--border-strong);
+  background-color: var(--card-hover);
+  box-shadow: var(--shadow);
 }
 
 .card img {
-  width: 200px; /* 원하는 너비 */
-  height: 240px; /* 원하는 높이 */
-  object-fit: cover; /* 이미지 비율을 유지하며 자름 */
-  object-position: top; /* 이미지의 상단을 기준으로 자름 */
+  width: 100%;
+  max-width: 190px;
+  aspect-ratio: 5 / 6;
+  height: auto;
+  object-fit: cover;      /* 이미지 비율을 유지하며 자름 */
+  object-position: top;   /* 이미지의 상단을 기준으로 자름 */
+  border-radius: var(--radius-sm);
+  margin-bottom: 12px;
 }
 
-.clickableImg { cursor: pointer; }
+.clickableImg {
+  cursor: pointer;
+  transition: opacity var(--transition);
+}
 
-.website {
-  margin: 0;
-  font-size: small;
-  color: #4e4d4d;
+.clickableImg:hover {
+  opacity: 0.88;
+}
+
+.nameText {
+  margin: 2px 0;
+  font-size: 16.5px;
+  font-weight: 600;
+  color: var(--text);
 }
 
 .email {
   margin: 0;
-  font-size: small;
-  color: #909090;
-}
-
-.nameText {
-  margin: 5px;
+  font-size: 13px;
+  color: var(--text-muted);
+  word-break: break-all;
 }
 
 .field {
-  margin: 4px 0 0;
-  font-size: small;
-  color: #606060;
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: var(--accent);
 }
 
-.name:link {
+.name {
   text-decoration: none;
-  color: black;
 }
 
-.name:visited {
-  text-decoration: none;
-  color: black;
-}
-
-.name:link:hover {
-  text-decoration: underline;
-  color: black;
+.name:hover .nameText {
+  color: var(--accent);
 }

@@ -413,7 +413,7 @@ PUBLICATIONS:
           - ID: hyangwonlee
           - ID: Eytan Modiano
         VENUE: IEEE GLOBECOM, Houston, TX, December
-        IMAGE: /publications/Robust_Network_Design_for_Stochastic_Traffic_Demands.png
+        IMAGE: /publications/Robust_Network_Design_for_Stochastic_Traffic_Demands.gif
         PDF: https://ieeexplore.ieee.org/abstract/document/6576905
         CODE: 
       - TITLE: A Robust Optimization Approach to Backup Network Design with Random Failures
@@ -422,7 +422,7 @@ PUBLICATIONS:
           - ID: hyangwonlee
           - ID: Eytan Modiano
         VENUE: IEEE INFOCOM, Shanghai, China, April
-        IMAGE: /publications/A_Robust_Optimization_Approach_to_Backup_Network_Design_with_Random_Failures.png
+        IMAGE: /publications/A_Robust_Optimization_Approach_to_Backup_Network_Design_with_Random_Failures.gif
         PDF: https://ieeexplore.ieee.org/abstract/document/6813701
         CODE: 
 
@@ -462,7 +462,7 @@ PUBLICATIONS:
           - ID: hyangwonlee
           - ID: Eytan Modiano
         VENUE: IEEE INFOCOM, San Diego, CA, March
-        IMAGE: /publications/Reliability_in_Layered_Networks_with_Random_Link_Failures.png
+        IMAGE: /publications/Reliability_in_Layered_Networks_with_Random_Link_Failures.gif
         PDF: https://ieeexplore.ieee.org/abstract/document/5759108
         CODE: 
 
@@ -475,7 +475,7 @@ PUBLICATIONS:
           - ID: hyangwonlee
           - ID: Song Chong
         VENUE: IEEE/OSA Journal on Lightwave Technology, Vol. 27, No. 17, pp. 3820-3830
-        IMAGE: /publications/A_Joint_Design_of_Congestion_Control_and_Burst_Contention_Resolution_for_Optical_Burst_Switching_Networks.gif
+        IMAGE: /publications/A_Joint_Design_of_Congestion_Control_and_Burst_Contention_Resolution_for_Optical_Burst_Switching_Network.gif
         PDF: https://ieeexplore.ieee.org/abstract/document/5109683
         CODE: 
       - TITLE: Distributed Throughput Maximization in Wireless Networks via Random Power Allocation
@@ -492,7 +492,7 @@ PUBLICATIONS:
           - ID: hyangwonlee
           - ID: Eytan Modiano
         VENUE: IEEE INFOCOM, Rio de Janeiro, Brazil, April
-        IMAGE: /publications/Diverse_Routing_in_Networks_with_Probabilistic_Failures.png
+        IMAGE: /publications/Diverse_Routing_in_Networks_with_Probabilistic_Failures.gif
         PDF: https://ieeexplore.ieee.org/abstract/document/5473148
         CODE: 
 
@@ -561,7 +561,7 @@ PUBLICATIONS:
           - ID: hyangwonlee
           - ID: Song Chong
         VENUE: IEEE WoWMoM, Helsinki, Finland, June
-        IMAGE: /publications/Downlink_Resource_Allocation_in_Multi-Carrier_Systems.png
+        IMAGE: /publications/Downlink_Resource_Allocation_in_Multi-Carrier_Systems.gif
         PDF: https://d1wqtxts1xzle7.cloudfront.net/97716843/_5BIC33_5D-libre.pdf?1674536915=&response-content-disposition=inline%3B+filename%3DDownlink_resource_allocation_in_multi_ca.pdf&Expires=1754557351&Signature=VtnZuNLTN6R1RTzQbM6JEYlgXCte6ZqNmq4npdD3kGt0teWB4R6zqLZqjJNhCjcpxtPyUGyv22LiqrsTNcXvZrjpsfNf2RNxYNDQrGSduMpoe9r~UQFbtKTf~okISMyKhhEkfjKvZ7YtDFXnYF~n5f07BWPSgpDvpSKCblDQPJzRjllEBguOGax89ogHwgfU551~0x2VOkCXpqB0rN0CI2LutwkOJxyxf9Al3Kf1SllLpwQUvMA87XMfgGxvQ0u6bsyIzTllWNotDYPClYqfxf7W6A6O4m6Ga7c7Q3ndR52BOda04aN1BrQlT~zN1tB3QAUpoB7kADKDdq2ZLXs05g__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
         CODE: 
 
@@ -580,7 +580,7 @@ PUBLICATIONS:
           - ID: hyangwonlee
           - ID: Song Chong
         VENUE: WiOpt'06, Boston, MA, April
-        IMAGE: /publications/Combined_QoS_Scheduling_and_Call_Admission_Control_Algorithm_in_Cellular_Networks.gif
+        IMAGE: /publications/Combined_QoS_Scheduling_and_Call_Admission_Control_Algorithm_in_Cellular_Network.gif
         PDF: https://ieeexplore.ieee.org/abstract/document/1666524
         CODE: 
 

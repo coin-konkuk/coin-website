@@ -1,6 +1,27 @@
 .container {
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+  margin: 0 auto;
+}
+
+.container h1 {
+  font-size: 34px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  margin: 4px 0 36px;
+}
+
+.container h1::after {
+  content: '';
+  display: block;
+  width: 56px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--gradient);
+  margin-top: 12px;
+}
+
+@media (max-width: 768px) {
+  .container h1 {
+    font-size: 28px;
+    margin-bottom: 28px;
   }
-  
+}

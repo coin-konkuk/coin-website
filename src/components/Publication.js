@@ -8,6 +8,7 @@ const toPublicUrl = (u = "") =>
 
 const Publication = ({ publication }) => {
   const [authors, setAuthors] = useState({});
+  const [imageFailed, setImageFailed] = useState(false);
 
   useEffect(() => {
     const fetchAuthors = async () => {
@@ -43,14 +44,32 @@ const Publication = ({ publication }) => {
 
   return (
     <div className={styles.publication}>
-      <img src={process.env.PUBLIC_URL + publication.IMAGE} alt={publication.TITLE} className={styles.image} />
+      {publication.IMAGE && !imageFailed ? (
+        <div className={styles.imageWrap}>
+          <img
+            src={process.env.PUBLIC_URL + publication.IMAGE}
+            alt={publication.TITLE}
+            className={styles.image}
+            onError={() => setImageFailed(true)}
+          />
+        </div>
+      ) : (
+        <div className={styles.imagePlaceholder} aria-hidden="true">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+            <polyline points="14 2 14 8 20 8" />
+            <line x1="8" y1="13" x2="16" y2="13" />
+            <line x1="8" y1="17" x2="13" y2="17" />
+          </svg>
+        </div>
+      )}
       <div className={styles.details}>
-        <h4>{publication.TITLE}</h4>
-        <p>{renderAuthors}</p>
-        <p>{publication.VENUE}</p>
+        <h4 className={styles.title}>{publication.TITLE}</h4>
+        <p className={styles.authors}>{renderAuthors}</p>
+        <p className={styles.venue}>{publication.VENUE}</p>
         <div className={styles.links}>
-          {publication.PDF && <a href={toPublicUrl(publication.PDF)} target="_blank" rel="noopener noreferrer">[PDF]</a>}
-          {publication.CODE && <a href={toPublicUrl(publication.CODE)} target="_blank" rel="noopener noreferrer">[Code]</a>}
+          {publication.PDF && <a href={toPublicUrl(publication.PDF)} target="_blank" rel="noopener noreferrer">PDF</a>}
+          {publication.CODE && <a href={toPublicUrl(publication.CODE)} target="_blank" rel="noopener noreferrer">Code</a>}
         </div>
       </div>
     </div>
