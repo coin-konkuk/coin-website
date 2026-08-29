@@ -126,8 +126,8 @@ PEOPLE:
   - ID: seonggwonpark
     NAME: Seonggwon Park
     POSITION: Undergraduate
-    IMAGE: /people/unknown.png
+    IMAGE: /people/seonggwonpark.png
     EMAIL: p0730p@konkuk.ac.kr
-    FIELD: Robustness
+    FIELD: Quantization
     WEBSITE: 
     ISCURRENT: True
