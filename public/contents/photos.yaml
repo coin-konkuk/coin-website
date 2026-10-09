@@ -13,7 +13,7 @@ PHOTOS:
         FILES: 
           - FILE: /workshops/2026_spring/2026_spring_hiking.jpg
             WIDTH: 3213
-            HIGHT: 3213
+            HEIGHT: 3213
 
   - YEAR: 2025
     WORKSHOPS:
