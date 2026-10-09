@@ -10,8 +10,8 @@
   border-radius: 20px;
   background-color: var(--bg-soft);
   background-image:
-    radial-gradient(640px 320px at 12% -10%, rgba(59, 130, 246, 0.22), transparent 70%),
-    radial-gradient(560px 300px at 88% 10%, rgba(139, 124, 246, 0.16), transparent 70%),
+    radial-gradient(640px 320px at 12% -10%, rgba(89, 128, 166, 0.28), transparent 70%),
+    radial-gradient(560px 300px at 88% 10%, rgba(181, 217, 253, 0.1), transparent 70%),
     linear-gradient(rgba(148, 163, 184, 0.05) 1px, transparent 1px),
     linear-gradient(90deg, rgba(148, 163, 184, 0.05) 1px, transparent 1px);
   background-size: auto, auto, 44px 44px, 44px 44px;
@@ -20,7 +20,22 @@
 }
 
 .heroContent {
+  position: relative;
+  z-index: 1;
   max-width: 760px;
+}
+
+/* 로고 엠블럼을 배경 장식으로 은은하게 */
+.heroEmblem {
+  position: absolute;
+  top: 50%;
+  right: -60px;
+  width: 400px;
+  height: 400px;
+  transform: translateY(-50%);
+  opacity: 0.14;
+  pointer-events: none;
+  animation: fadeIn 1.2s ease 0.3s both;
 }
 
 .heroEyebrow {
@@ -45,7 +60,7 @@
 
 @supports ((-webkit-background-clip: text) or (background-clip: text)) {
   .heroTitle {
-    background: linear-gradient(115deg, #ffffff 30%, #9fc6ff 70%, #b3a7ff 100%);
+    background: linear-gradient(115deg, #ffffff 35%, #d6eafe 70%, var(--brand-sky) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -74,7 +89,7 @@
   padding: 7px 16px;
   border-radius: 999px;
   border: 1px solid var(--border-strong);
-  background-color: rgba(94, 176, 255, 0.08);
+  background-color: rgba(var(--accent-rgb), 0.08);
   color: var(--text-secondary);
   font-size: 14px;
   font-weight: 500;
@@ -86,6 +101,12 @@
   border-color: var(--accent);
   color: var(--accent);
   background-color: var(--accent-soft);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
 }
 
 @keyframes fadeUp {
@@ -195,7 +216,7 @@
   padding: 4px 14px;
   border-radius: 999px;
   background-color: var(--accent-soft);
-  border: 1px solid rgba(94, 176, 255, 0.25);
+  border: 1px solid rgba(var(--accent-rgb), 0.25);
   color: var(--accent);
   font-size: 15px;
   font-weight: 700;
@@ -242,6 +263,15 @@
 
   .heroSubtitle {
     font-size: 16px;
+  }
+
+  .heroEmblem {
+    top: -40px;
+    right: -90px;
+    width: 260px;
+    height: 260px;
+    transform: none;
+    opacity: 0.09;
   }
 
   .section {

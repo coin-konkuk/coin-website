@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  background-color: rgba(10, 15, 30, 0.82);
+  background-color: rgba(11, 15, 24, 0.82);
   -webkit-backdrop-filter: blur(14px);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border);
@@ -31,12 +31,14 @@
   align-items: center;
 }
 
-.logo img {
-  height: 52px;
+.logoMark {
+  display: block;
+  height: 56px;
+  width: auto;
   transition: opacity var(--transition);
 }
 
-.logo img:hover {
+.logo a:hover .logoMark {
   opacity: 0.85;
 }
 
@@ -90,7 +92,7 @@
     min-height: 56px;
   }
 
-  .logo img {
+  .logoMark {
     height: 40px;
   }
 

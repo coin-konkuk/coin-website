@@ -80,10 +80,16 @@
 :root {
   color-scheme: dark;
 
-  --bg: #0a0f1e;
-  --bg-soft: #0d1426;
-  --card: #101a30;
-  --card-hover: #142038;
+  /* 브랜드 색 (public/brand/coinlab-*.svg 로고에서 추출) */
+  --brand-ink: #1d1f20;
+  --brand-steel: #5980a6;
+  --brand-sky: #b5d9fd;
+  --brand-paper: #f2f2f3;
+
+  --bg: #0b0f18;
+  --bg-soft: #0f1520;
+  --card: #131b29;
+  --card-hover: #182233;
   --figure-bg: #f4f6fa; /* light panel behind paper figures / diagrams */
 
   --border: rgba(148, 163, 184, 0.14);
@@ -93,10 +99,15 @@
   --text-secondary: #b9c3d5;
   --text-muted: #8494ac;
 
-  --accent: #5eb0ff;
-  --accent-soft: rgba(94, 176, 255, 0.12);
-  --accent-2: #8b7cf6;
-  --gradient: linear-gradient(120deg, #5eb0ff, #8b7cf6);
+  --accent: #8ec4f8;
+  --accent-rgb: 142, 196, 248;
+  --accent-soft: rgba(var(--accent-rgb), 0.12);
+  --accent-2: var(--brand-steel);
+  --gradient: linear-gradient(120deg, var(--brand-sky), var(--brand-steel));
+
+  /* 다크 배경용 로고 색 (favicon과 같은 반전 방식) */
+  --logo-ink: var(--brand-paper);
+  --logo-accent: var(--brand-sky);
 
   --radius: 14px;
   --radius-sm: 10px;
@@ -105,6 +116,8 @@
 
   --font-sans: 'Wanted Sans', 'Spoqa Han Sans Neo', -apple-system,
     BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', sans-serif;
+  --font-brand: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+  --font-brand-text: 'Barlow', Arial, sans-serif;
 }
 
 /* ===== Base ===== */
@@ -144,7 +157,7 @@ button:focus-visible {
 }
 
 ::selection {
-  background: rgba(94, 176, 255, 0.3);
+  background: rgba(var(--accent-rgb), 0.3);
   color: #ffffff;
 }
 
@@ -157,12 +170,12 @@ button:focus-visible {
   background: var(--bg);
 }
 ::-webkit-scrollbar-thumb {
-  background: #25345c;
+  background: #263243;
   border-radius: 6px;
   border: 2px solid var(--bg);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #33487c;
+  background: #34465e;
 }
 
 code {

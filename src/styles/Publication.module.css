@@ -82,7 +82,7 @@
   align-items: center;
   padding: 4px 14px;
   border-radius: 999px;
-  border: 1px solid rgba(94, 176, 255, 0.35);
+  border: 1px solid rgba(var(--accent-rgb), 0.35);
   background-color: var(--accent-soft);
   color: var(--accent);
   font-size: 13px;

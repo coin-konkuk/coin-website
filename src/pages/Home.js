@@ -4,6 +4,7 @@ import yaml from 'js-yaml';
 import ReactMarkdown from 'react-markdown';
 import remarkBreaks from 'remark-breaks';
 import styles from 'styles/Home.module.css';
+import { LogoEmblem } from 'components/Logo';
 
 const Home = () => {
   const [homeData, setHomeData] = useState([]);
@@ -52,6 +53,7 @@ const Home = () => {
     <div className={styles.container}>
       {hero && (
         <section className={styles.hero}>
+          <LogoEmblem className={styles.heroEmblem} />
           <div className={styles.heroContent}>
             {hero.EYEBROW && <p className={styles.heroEyebrow}>{hero.EYEBROW}</p>}
             {hero.TITLE && <h1 className={styles.heroTitle}>{hero.TITLE}</h1>}

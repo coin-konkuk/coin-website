@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styles from 'styles/Header.module.css';
+import { LogoLockup } from 'components/Logo';
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
         <div className={styles.headerContainer}>
             <div className={styles.logo}>
                 <NavLink to={"/home"}>
-                <img src={process.env.PUBLIC_URL + "/logo.svg"} alt="Lab Logo" />
+                <LogoLockup className={styles.logoMark} />
                 </NavLink>
             </div>
             <nav className={styles.nav}>
