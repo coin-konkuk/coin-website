@@ -1,6 +1,14 @@
 PUBLICATIONS:
   - YEAR: 2026
     PUBLICATIONS:
+      - TITLE: On the Optimal Ensemble of Distributed DNN Models
+        AUTHORS:
+          - ID: heejinkim
+          - ID: hyangwonlee
+        VENUE: IEEE Internet of Things Journal
+        IMAGE: /publications/Latency and accuracy of each service over time.png
+        PDF: https://ieeexplore.ieee.org/document/11640322
+        CODE: 
       - TITLE: Dynamic network compression via probabilistic channel pruning
         AUTHORS:
           - ID: kwanheelee
