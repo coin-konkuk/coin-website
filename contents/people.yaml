@@ -99,6 +99,13 @@ PEOPLE:
     WEBSITE:
     ISCURRENT: False
     CURRENT_WORKPLACE: MS Student, Daou Tech
+  - ID: jinwoopark
+    NAME: Jinwoo Park
+    POSITION: Undergraduate
+    IMAGE: /people/unknown.png
+    EMAIL: parkjinwoo01@konkuk.ac.kr
+    WEBSITE: 
+    ISCURRENT: False
   - ID: suminsong
     NAME: Sumin Song
     POSITION: Undergraduate
@@ -114,14 +121,6 @@ PEOPLE:
     EMAIL: dlstkdals123@konkuk.ac.kr
     FIELD: Multimodal AI services
     WEBSITE: https://github.com/dlstkdals123/
-    ISCURRENT: True
-  - ID: jinwoopark
-    NAME: Jinwoo Park
-    POSITION: Undergraduate
-    IMAGE: /people/unknown.png
-    EMAIL: parkjinwoo01@konkuk.ac.kr
-    FIELD: Multimodal AI services
-    WEBSITE: 
     ISCURRENT: True
   - ID: seonggwonpark
     NAME: Seonggwon Park
